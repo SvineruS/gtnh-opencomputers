@@ -1,0 +1,6548 @@
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 112,
+    [name] = "minecraft:stone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3156,
+    [name] = "minecraft:dirt",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dirt",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 13557,
+    [name] = "minecraft:cobblestone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:planks",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Wood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 26,
+    [name] = "minecraft:planks",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Spruce Wood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "minecraft:planks",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Birch Wood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 41,
+    [name] = "minecraft:planks",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Dark Oak Wood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 286,
+    [name] = "minecraft:sapling",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "minecraft:sapling",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Spruce Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2244,
+    [name] = "minecraft:sand",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sand",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1175,
+    [name] = "minecraft:gravel",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Gravel",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 180,
+    [name] = "minecraft:log",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 47,
+    [name] = "minecraft:log",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Spruce Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "minecraft:log",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Jungle Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:leaves",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Jungle Leaves",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 204,
+    [name] = "minecraft:glass",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 24,
+    [name] = "minecraft:lapis_block",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Lapis Lazuli Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:dispenser",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dispenser",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 45,
+    [name] = "minecraft:sandstone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sandstone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:sticky_piston",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sticky Piston",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:tallgrass",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Grass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:piston",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Piston",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 97,
+    [name] = "minecraft:wool",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Wool",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:wool",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Gray Wool",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:wool",
+    [maxDamage] = 0,
+    [damage] = 15,
+    [hasTag] = false,
+    [label] = "Black Wool",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 10,
+    [name] = "minecraft:yellow_flower",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dandelion",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:red_flower",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Poppy",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:red_flower",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Blue Orchid",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:red_flower",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Red Tulip",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:red_flower",
+    [maxDamage] = 0,
+    [damage] = 8,
+    [hasTag] = false,
+    [label] = "Oxeye Daisy",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 56,
+    [name] = "minecraft:brown_mushroom",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Mushroom",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 15,
+    [name] = "minecraft:red_mushroom",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Mushroom",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:gold_block",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Block of Gold",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 283,
+    [name] = "minecraft:stone_slab",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stone Slab",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 174,
+    [name] = "minecraft:stone_slab",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Cobblestone Slab",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 18,
+    [name] = "minecraft:brick_block",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bricks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "minecraft:bookshelf",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bookshelf",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 61,
+    [name] = "minecraft:mossy_cobblestone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Moss Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 48,
+    [name] = "minecraft:torch",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Torch",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:oak_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Wood Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "minecraft:chest",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "minecraft:furnace",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Furnace",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 86,
+    [name] = "minecraft:ladder",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ladder",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 507,
+    [name] = "minecraft:rail",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Track",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 48,
+    [name] = "minecraft:stone_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stone Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:lever",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Lever",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:stone_pressure_plate",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Pressure Plate",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:wooden_pressure_plate",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "tile.etfuturum.oak_pressure_plate.name",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:stone_button",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Button",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:ice",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ice",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "minecraft:snow",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Snow",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 18,
+    [name] = "minecraft:fence",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fence",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 58,
+    [name] = "minecraft:pumpkin",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Pumpkin",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2124,
+    [name] = "minecraft:netherrack",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Netherrack",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:glowstone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glowstone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 113,
+    [name] = "minecraft:stonebrick",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stone Bricks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 88,
+    [name] = "minecraft:stonebrick",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Mossy Stone Bricks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 81,
+    [name] = "minecraft:stonebrick",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Cracked Stone Bricks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 147,
+    [name] = "minecraft:iron_bars",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iron Bars",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:glass_pane",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glass Pane",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "minecraft:vine",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Vines",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 66,
+    [name] = "minecraft:stone_brick_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stone Brick Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "minecraft:waterlily",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Lily Pad",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 711,
+    [name] = "minecraft:nether_brick",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:nether_brick_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Brick Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 64,
+    [name] = "minecraft:end_stone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "End Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 26,
+    [name] = "minecraft:wooden_slab",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Wood Slab",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 62,
+    [name] = "minecraft:wooden_slab",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Spruce Wood Slab",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:tripwire_hook",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Tripwire Hook",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "minecraft:birch_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Birch Wood Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:cobblestone_wall",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cobblestone Wall",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:light_weighted_pressure_plate",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Weighted Pressure Plate (Light)",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:hopper",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Hopper",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:dropper",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dropper",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 128,
+    [name] = "minecraft:stained_hardened_clay",
+    [maxDamage] = 0,
+    [damage] = 8,
+    [hasTag] = false,
+    [label] = "Light Gray Stained Clay",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 26,
+    [name] = "minecraft:log2",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Acacia Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 61,
+    [name] = "minecraft:log2",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Dark Oak Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:dark_oak_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dark Oak Wood Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 358,
+    [name] = "IC2:blockRubWood",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Rubber Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "minecraft:hay_block",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Hay Bale",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 38,
+    [name] = "minecraft:coal_block",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Block of Coal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:packed_ice",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Packed Ice",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 128,
+    [name] = "IC2:blockMiningPipe",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Mining Pipe",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 687,
+    [name] = "IC2:blockITNT",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Industrial TNT",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 173,
+    [name] = "IC2:blockCrop",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Crop",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "appliedenergistics2:tile.BlockQuartz",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Certus Quartz Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 2,
+    [name] = "appliedenergistics2:tile.BlockQuartzGlass",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Quartz Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 15,
+    [name] = "appliedenergistics2:tile.BlockFluix",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fluix Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 394,
+    [name] = "appliedenergistics2:tile.BlockSkyStone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sky Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "appliedenergistics2:tile.BlockSkyChest",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sky Stone Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 505,
+    [name] = "minecraft:apple",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Apple",
+}
+
+{
+    [outputs] = {
+    }    [enchantments] = {
+        [1] = {
+            [label] = "Power I",
+            [level] = 1,
+            [name] = "enchantment.arrowDamage",
+        }    }    [size] = 2,
+    [name] = "minecraft:bow",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡d`IÕKŒ‡b```db` La0`b`Œ)Àa`d`\0\0À1—• \0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 1,
+    [maxDamage] = 384,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Bow",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 528,
+    [name] = "minecraft:arrow",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Arrow",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 121,
+    [name] = "minecraft:coal",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Coal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 745,
+    [name] = "minecraft:coal",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Charcoal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "minecraft:diamond",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Diamond",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 169,
+    [name] = "minecraft:iron_ingot",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iron Ingot",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 658,
+    [name] = "minecraft:gold_ingot",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Gold Ingot",
+}
+
+{
+    [outputs] = {
+    }    [enchantments] = {
+        [1] = {
+            [label] = "Efficiency II",
+            [level] = 2,
+            [name] = "enchantment.digging",
+        }        [2] = {
+            [label] = "Disjunction II",
+            [level] = 2,
+            [name] = "enchantment.damage.endermen",
+        }    }    [size] = 1,
+    [name] = "minecraft:diamond_axe",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡d`IÕKŒ‡b```bb` LaP`b`Œ)Àa`bÄ˘·|\6\0\1ÉÖQ0\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 1,
+    [maxDamage] = 1561,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Diamond Axe",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 185,
+    [name] = "minecraft:stick",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Stick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:bowl",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bowl",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:mushroom_stew",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Mushroom Stew",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 77,
+    [name] = "minecraft:string",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "String",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 298,
+    [name] = "minecraft:feather",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Feather",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 682,
+    [name] = "minecraft:gunpowder",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Gunpowder",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "minecraft:wheat_seeds",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Seeds",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 775,
+    [name] = "minecraft:wheat",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Wheat",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "minecraft:bread",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bread",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:golden_helmet",
+    [maxDamage] = 77,
+    [damage] = 52,
+    [hasTag] = false,
+    [label] = "Golden Helmet",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 463,
+    [name] = "minecraft:flint",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Flint",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 306,
+    [name] = "minecraft:porkchop",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Porkchop",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:cooked_porkchop",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cooked Porkchop",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 34,
+    [name] = "minecraft:painting",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Painting",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:golden_apple",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Golden Apple",
+}
+
+{
+    [maxSize] = 16,
+    [isCraftable] = false,
+    [size] = 29,
+    [name] = "minecraft:sign",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sign",
+}
+
+{
+    [maxSize] = 8,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:wooden_door",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Wooden Door",
+}
+
+{
+    [maxSize] = 16,
+    [isCraftable] = false,
+    [size] = 29,
+    [name] = "minecraft:bucket",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bucket",
+}
+
+{
+    [maxSize] = 8,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:iron_door",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iron Door",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 12738,
+    [name] = "minecraft:redstone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Redstone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5832,
+    [name] = "minecraft:snowball",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Snowball",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 90,
+    [name] = "minecraft:leather",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Leather",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 266,
+    [name] = "minecraft:brick",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 25,
+    [name] = "minecraft:clay_ball",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Clay",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 47,
+    [name] = "minecraft:paper",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Paper",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 348,
+    [name] = "minecraft:book",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Book",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 402,
+    [name] = "minecraft:slime_ball",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Slimeball",
+}
+
+{
+    [maxSize] = 3,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:chest_minecart",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Chest Cart",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1017,
+    [name] = "minecraft:egg",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Egg",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:fishing_rod",
+    [maxDamage] = 64,
+    [damage] = 39,
+    [hasTag] = false,
+    [label] = "Fishing Rod",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2777,
+    [name] = "minecraft:glowstone_dust",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glowstone Dust",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 134,
+    [name] = "minecraft:fish",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Fish",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 64,
+    [name] = "minecraft:fish",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Pufferfish",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 178,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ink Sac",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2437,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Lapis Lazuli",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Pink Dye",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 11,
+    [hasTag] = false,
+    [label] = "Dandelion Yellow",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 14,
+    [hasTag] = false,
+    [label] = "Orange Dye",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 291,
+    [name] = "minecraft:dye",
+    [maxDamage] = 0,
+    [damage] = 15,
+    [hasTag] = false,
+    [label] = "Bone Meal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 867,
+    [name] = "minecraft:bone",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 21,
+    [name] = "minecraft:melon",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Melon",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 410,
+    [name] = "minecraft:beef",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Beef",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:cooked_beef",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Steak",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:chicken",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Chicken",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:cooked_chicken",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cooked Chicken",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1762,
+    [name] = "minecraft:rotten_flesh",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Rotten Flesh",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 198,
+    [name] = "minecraft:ender_pearl",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ender Pearl",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 14,
+    [name] = "minecraft:blaze_rod",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Blaze Rod",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 14,
+    [name] = "minecraft:ghast_tear",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ghast Tear",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 191,
+    [name] = "minecraft:gold_nugget",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Gold Nugget",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "minecraft:nether_wart",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Wart",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "minecraft:glass_bottle",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glass Bottle",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 151,
+    [name] = "minecraft:spider_eye",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Spider Eye",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "minecraft:fermented_spider_eye",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fermented Spider Eye",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 30,
+    [name] = "minecraft:blaze_powder",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Blaze Powder",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:magma_cream",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Magma Cream",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 26,
+    [name] = "minecraft:speckled_melon",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glistering Melon",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 121,
+    [name] = "minecraft:fire_charge",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fire Charge",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:writable_book",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Book and Quill",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 530,
+    [name] = "minecraft:emerald",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Emerald",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "minecraft:item_frame",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Item Frame",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 119,
+    [name] = "minecraft:carrot",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Carrot",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 249,
+    [name] = "minecraft:potato",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Potato",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 243,
+    [name] = "minecraft:baked_potato",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Baked Potato",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "minecraft:poisonous_potato",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Poisonous Potato",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 61,
+    [name] = "minecraft:skull",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Skeleton Skull",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 10,
+    [name] = "minecraft:skull",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Wither Skeleton Skull",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 42,
+    [name] = "minecraft:skull",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Zombie Head",
+}
+
+{
+    [outputs] = {
+    }    [size] = 57,
+    [name] = "minecraft:skull",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡`‡\
+Œ.Õ…Ò/œK-b‡ . œ…Ã64µ4d\0\0ã9∑ë\29\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 3,
+    [label] = "krolik1591's Head",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4,
+    [name] = "minecraft:skull",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ≠î…é≥F\20Ö…ØDÍøü#;´e¿`Ã\"\11\0126\20PÖçôwL63\0243?S\0302tß\21%˚¨J:U˜úÔ÷-’;ÜΩcÔ∑º/\
+m¨‚ˆ\13˚\1\"Ï˜ò∫≥Ù˝N~Dá›˛É\
+|˙#ÿÔâè¯N∆\12Aí¯Å‹Ωaø\"øå±˜º≠ã4'hñX≠.m›ƒmó∆Øüÿ[\23O]ﬂ∆Øw\12√~y√~ﬁ“GÂ\127*?˛<ì\26Z\\m÷UΩ√˝.’ë@›ô–*h\17=€t”\9s’É|Êó\0≤™√zÅú Œ≠Nx√\18w=”]Æ8n∆µwK¿†0õ÷4\5z⁄“ı\0180ìT—õ¡ç9–Õ8%®˘÷∑L¿Sº–À……ı\14ÃÂ\30.\13.qÉ£iOöﬁ´ôqdo:w]hO\127÷d+Á\17?k†ëˆÚãp\5\9Â—”\31J®≤O⁄24°òÿÁìëÃç∂\29éu≠“ˆìmÍÄs/\15\26q\23ã%ˆƒ≈Ù7≥¸‹\25m\16%D∫àÖˆ ÍÂ\14\20\"»‰ û.9R«v‚öõ^ãRk\12e9ãÕ·0Ïù\\H/µ\2∂Éû´z\25\18|`A¶ø-ö>‘ıÎ¥¬EÛÆ\24ƒ}´jõ√Ó|N=ëÛÛ.©\21∂∂\13M\25‰Ãã≠◊„x\20\\ñŒ/àHq[\19ı„AâtxWò\14ÑÀ.°‡ôt:\0298b$EπÆ3ú9¬÷g™§◊≤\20úÜ†S\"ã\26çQ(È>•/W·LT\14≥\23ì¡s∆|ÏÒm‘'çuùT≥\"èS◊ÿ\
+èö:‹\3ﬂzú‰éJcÎÑf‹G·t%\21æk™ÀÛ ﬂ\5P“¥c∆Ûy∫\13ó¨¿ãç]P∏∂Ò\22v⁄=áñØqá\2äƒGJƒ[i\28%áù\29‡?\2\
+q·1$¥Í§ë›&bt0∑4\19πZtW&Sbky\2¨jÙ…A4\21{·ÏÕÉ¬ùi í……A°ı\
+™lépá\4∑U¸©Ûõ¿SÓB\24ÜYc∑¨T*œ\29‹_,µ\
+Øu˝«\27ˆõÂ\23}¸√â«˙\1x\25˜m¢\8wz\0188\\\
+Ñ˙\1çp“\4\23áôãk\2á£€®\0ûKCI\30º≤xyfëÉî€Øµ\5\18]\26Ÿ^\9À+\5\23\23wÀ\19·f.\9mk’Ã\0294¿\12Ö«\12g‚SÓ\1™„\28ê^\19àñÊÆπﬂ>mX≤/ﬂ~M»»'ê~ÁëE\21îg<r‰¬,≠)≤ãŸ≥Ø_åë$\19ﬁ7W$ZT$Y≥Á¿ØΩø˚Z≥\
+§ﬁLÍø⁄ÁyG~}Á÷ë§èZz\24˛Â—\7v—{6ö]€√’í.\"û≈='˘‚PósÓ.êFkoöp•V\30“-Õ≈]N4$!·\9&πÍ¥gDπ'∏# Ã…%≠‘]Ã\25ëß\17ŸÁ\2\
+«ÃµØ\0114Nªµná\4.˝∫\27˛»™‹7gééÊ…¸\127ŸIîkˆ:ßÚúB#*=!_g\3fOîs$û(T¢‹3Ù\12.èŸ5B\2\9«‚ì—+œ\5\"\1Ì\26ÄB\6$ëÒ †`%Î€ af˛√˛πﬁØ\13ª˛èÿ_”Ω$‹ã\5\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 3,
+    [label] = "krolik1591's Head",
+}
+
+{
+    [outputs] = {
+    }    [size] = 1,
+    [name] = "minecraft:skull",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ≠îI≥õF\16«â+©zˆÁ»MÂ\18ªƒ¡\7ˆ}x,\2¡M,b—∞\8\16€gÚá\12œNú =óÈ™ÓûÓﬂø{jæ »\23‰ã˚xAhÕM÷ø!ü‘\20˘ìH–{Ü”ÁØƒù∏\127%”˝∏1D¸ï\"\9ö¶Ò\19Üeƒ\27Ú;∏’\25Ú6LÂ~Û5ÏÖﬁ˚∂À˙±ÃÜœ»€ò-„´œv?Ç¸ˆÜ|vÀºπ}x>}üÚƒ*&∑Ìƒ∏’\23? ,†\31\13£Óç\18\6Ï˝≤LanòÖé'L™s≥[\23Móû§¶,Ä)Ø§T\0246~:1∂ñú£îáÔz3\9>#Pπãuµò\0131wx&t~∞§PÖj◊ogóû5⁄å&°l´©ìOÕ·\12\5\17f\0213âdõ‘WÇç\5‘ê¶B\18•$o\\œ%ã\20Xß§P€,∑\3\25∞}§\17&≠ÎäŒaN€\5˜|æ\25z Í±rî`ˇ‘üxœ∑´\30Z/5Îƒ£=ú4Ìxf÷õ+8«#©º“Ò¬˜+£W4˛Ú^c◊Üù’õ˙‰\0Y\9F\2ı*“N\31†‚ıÄ@Ì\21ÕeüuÓç§åliî≈∆∏‰\18\21\5Ê]+©3jà±óë\17 \3ØO\
+`%@&ÓÄπ>\16D\2mÜÁIiÄr‘cºò\30≠ŒUÅhüa·‚ëœud‰à\7|:iÔ\18ÀI≤ß—FËïG‘=9ØÃ9Ω‘ÙûE3o\20ú#oÒqf⁄√9ÕÁ˜@±d#m\18L™“…Îπ aïÕ•]•¶LfÒ\26…¿:é+VqK\26+˜ù\16íZﬂèÆ \28\13ß≠À†ûöPÍ•∂Z\7å›∆¬€tKYÆŒ”‚Ñé/∂€cüN<å›\25Hæ˙8î\30≠<ôt&89.<6ÖK∑\16ZK˘bew≥ﬂæZïÈ\23v‚«i\9‹õ\4¬};˘„±5!Ω‹À¡?ısJÈò\16‰Ëô◊À 9ºkpÛüìŒQi˚§y\
+≈ÎÃÖ\12z«C\24å}Ï1sDœÔ~^Áﬂﬁê?¸\27|eüÆŸ‹Ê*Ø°∑\0É\9·\20Òï-U°ÕM/Y,!DAu¡ÕÍÇö¸¨´<[&ä6E5\28¢\11|®%K´º∫Ö\27WGûä[\2®M<D£›Üﬁc\11?Óm!\14*ï0=\9ö´:%õ´\13∑∆x‘≈≤oÖ{ﬂüu¥-≠·+∫jXÚ+\15t\17N\21©‚ØëØ¡‰ÍwIÌˇÏ´8k\26\\˛Œs`¶8ÿ\30€~∆Ü\15÷\15]ûãBÎøæè|\127çy5∑J∂º)\14ö\8Ìd\16ˇ÷0j¨ãkøJj©Nyjg≤ßTˆ…\31\28Óô≤º\28èj{\5ÇπÜ\27Kô\21,C‹û#O‹¢ §@`Ø¶\0K ´∏È±˚¸ƒ%\18\18\20\8†\4\30KÇZ]LO]Å¨As{P·\6\30jﬁ˛`ªªÛ?ÏÇÌs“ˇÀŒTë\0\31ñ†\21a%\18ªÜùù]Õ⁄)#¡),!™\"˘ÇÜõIöµH\0Ôá¶\5‡Q\17yii\5‚j\9óm\127\19‰Æ\3\11Ω|ﬁwã˝b∑w´†˙›˛ˆmˇ\31ëø\0\
+Q?‚â\5\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 3,
+    [label] = "svinerus's Head",
+}
+
+{
+    [outputs] = {
+    }    [size] = 29,
+    [name] = "minecraft:skull",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡`‡\
+Œ.Õ…Ò/œK-b‡(.À\4“•≈\12\0%Õ‡9\27\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 3,
+    [label] = "svinerus's Head",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 40,
+    [name] = "minecraft:skull",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Creeper Head",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "minecraft:nether_star",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Star",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:fireworks",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Firework Rocket",
+}
+
+{
+    [outputs] = {
+    }    [size] = 8,
+    [name] = "minecraft:fireworks",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡b‡tÀ,J-œ/ .fd`sÀ…Lœ(aÊd‡r≠(»…/ŒÃœ+Êb```ed`\9©,Hedd`\7™IŒN-b‰f`sŒœ…/*\6…3X\7J1§u^fP5úƒP≠øèA£l:#\3kHQbf\14#√H’Õ¿\0\0,\14\127äc\1\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Firework Rocket",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 272,
+    [name] = "minecraft:netherbrick",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2963,
+    [name] = "minecraft:quartz",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Nether Quartz",
+}
+
+{
+    [maxSize] = 3,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "minecraft:tnt_minecart",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "TNT Cart",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:tile.BlockInterface",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "ME Interface",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "minecraft:name_tag",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡b`O…,.»I¨‰``ÒKÃMe\16˜œIQàLÕ…I-“QHTH*J,KUH…Og`\0\0!vÓû/\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Old Yeller, a brave dog",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "minecraft:name_tag",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Name Tag",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "minecraft:name_tag",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡b`O…,.»I¨‰``ÒKÃMe\16p*MŒ÷QHT(œÃIQH…Og`\0\0È,≠J(\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Buck, a wild dog",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 40,
+    [name] = "Thaumcraft:blockMagicalLog",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Greatwood Log",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 398,
+    [name] = "Thaumcraft:blockMagicalLog",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Silverwood Log",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "Thaumcraft:blockCustomPlant",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Greatwood Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "Thaumcraft:blockCosmeticOpaque",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Warded Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 12,
+    [name] = "Thaumcraft:blockCosmeticSolid",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Obsidian Totem",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "Thaumcraft:blockCosmeticSolid",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Obsidian Tile",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 15,
+    [name] = "Thaumcraft:blockCosmeticSolid",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Arcane Stone Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "Thaumcraft:blockCrystal",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Water Crystal Cluster",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "Thaumcraft:blockCrystal",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Entropy Crystal Cluster",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "Thaumcraft:blockTube",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Essentia Tube",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 39,
+    [name] = "Thaumcraft:blockWoodenDevice",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Greatwood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 114,
+    [name] = "Thaumcraft:blockWoodenDevice",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Silverwood Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "Thaumcraft:blockTable",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Table",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "Thaumcraft:blockJar",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Warded Jar",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "ExtraUtilities:decorativeBlock1",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Ender-infused Obsidian",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "ExtraUtilities:decorativeBlock2",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Obsidian Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "ExtraUtilities:cobblestone_compressed",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Compressed Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 12,
+    [name] = "ExtraUtilities:extractor_base",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Transfer Node (Liquids)",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 43,
+    [name] = "ExtraUtilities:cursedearthside",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cursed Earth",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "ExtraUtilities:spike_base",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iron Spike",
+}
+
+{
+    [fluid] = {
+        [name] = "chlorine",
+        [label] = "Chlorine",
+        [hasTag] = false,
+        [amount] = 256000,
+    }    [hasTag] = true,
+    [size] = 2,
+    [name] = "ExtraUtilities:drum",
+    [inputs] = {
+    }    [isCraftable] = false,
+    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡b`uÀ)ÕLaf`sÃÕ/Õ+a`~¡¿¡¿\9\22ÙKÃMe‡HŒ»…/ ÃKe`\0\0ãW!\0140\0\0\0",
+    [maxSize] = 64,
+    [fluid_label] = "Chlorine",
+    [fluid_name] = "chlorine",
+    [fluid_hasTag] = false,
+    [capacity] = 256000,
+    [maxDamage] = 0,
+    [damage] = 0,
+    [outputs] = {
+    }    [label] = "Chlorine Drum",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 21,
+    [name] = "ExtraUtilities:drum",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 256000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 0,
+    [label] = "Drum",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "TConstruct:slime.gel",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Congealed Blue Slime",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 11,
+    [name] = "TConstruct:slime.gel",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Congealed Green Slime",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 12,
+    [name] = "TConstruct:slime.gel",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Congealed Purple Slime",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "TConstruct:CraftingSlab",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Crafting Station",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "TConstruct:LavaTank",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 4000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 0,
+    [label] = "Seared Tank",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "TConstruct:SearedBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Casting Table",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "TConstruct:SearedBlock",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Casting Basin",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 73,
+    [name] = "TConstruct:GlassBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Clear Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "TConstruct:GlassPane",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Clear Glass Pane",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "GalacticraftCore:tile.landingPad",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Rocket Launch Pad",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "GalacticraftCore:tile.oxygenPipe",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oxygen Pipe",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 20,
+    [name] = "GalacticraftCore:tile.parachest",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Parachest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "GalacticraftCore:tile.glowstoneTorch",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glowstone Torch",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 548,
+    [name] = "GalacticraftCore:tile.moonBlock",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Moon Dirt",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 412,
+    [name] = "GalacticraftCore:tile.moonBlock",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Moon Rock",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 399,
+    [name] = "GalacticraftCore:tile.moonBlock",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Moon Turf",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 27,
+    [name] = "GalacticraftCore:tile.moonBlock",
+    [maxDamage] = 0,
+    [damage] = 14,
+    [hasTag] = false,
+    [label] = "Moon Dungeon Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3382,
+    [name] = "GalacticraftMars:tile.mars",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Mars Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 77,
+    [name] = "GalacticraftMars:tile.mars",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Mars Surface Rock",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 431,
+    [name] = "GalacticraftMars:tile.mars",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Mars Sub-Surface Rock",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 82,
+    [name] = "GalacticraftMars:tile.mars",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Mars Dungeon Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 33,
+    [name] = "GalacticraftMars:tile.cavernVines",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cavernous Vines",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "GalacticraftMars:tile.creeperEgg",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Creeper Egg",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "GalacticraftMars:tile.hydrogenPipe",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Hydrogen Pipe",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "BuildCraft|Factory:tankBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Tank",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 24,
+    [name] = "Railcraft:cube",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Block of Coal Coke",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 26,
+    [name] = "Railcraft:machine.alpha",
+    [maxDamage] = 0,
+    [damage] = 14,
+    [hasTag] = false,
+    [label] = "Water Tank Siding",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "Railcraft:detector",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Detector - Advanced",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 382,
+    [name] = "TwilightForest:tile.TFLog",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Canopy Tree Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 22,
+    [name] = "TwilightForest:tile.TFPlank",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Twilight Oak Planks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "TwilightForest:tile.TFCicada",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cicada",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "TwilightForest:tile.TFMazestone",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Mazestone Brick",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "TwilightForest:tile.TFPlant",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Mushgloom",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 23,
+    [name] = "TwilightForest:tile.TFSapling",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Canopy Tree Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "chisel:cobblestone",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 694,
+    [name] = "chisel:cobblestone",
+    [maxDamage] = 0,
+    [damage] = 14,
+    [hasTag] = false,
+    [label] = "Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 60,
+    [name] = "chisel:cobblestone",
+    [maxDamage] = 0,
+    [damage] = 15,
+    [hasTag] = false,
+    [label] = "Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "chisel:concrete",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Concrete",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 124,
+    [name] = "chisel:concrete",
+    [maxDamage] = 0,
+    [damage] = 10,
+    [hasTag] = false,
+    [label] = "Concrete",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 67,
+    [name] = "Natura:Cloud",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Sulfur Cloud",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 101,
+    [name] = "BiomesOPlenty:mud",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Quicksand",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "BiomesOPlenty:flowers2",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Miner's Delight",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 67,
+    [name] = "BiomesOPlenty:logs1",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Cherry Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "BiomesOPlenty:saplings",
+    [maxDamage] = 0,
+    [damage] = 11,
+    [hasTag] = false,
+    [label] = "Maple Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "BiomesOPlenty:saplings",
+    [maxDamage] = 0,
+    [damage] = 12,
+    [hasTag] = false,
+    [label] = "White Cherry Sapling",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "BiomesOPlenty:hardSand",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Hardened Sand",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "BiomesOPlenty:hive",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Hive Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 18,
+    [name] = "BiomesOPlenty:planks",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Fir Wood Planks",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "HardcoreEnderExpansion:enhanced_tnt",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡d\16puçOÕÀHÃKNÕMÕ+)Ê````f`˜Ûèw\11\13ve\16\0002\\˝B<C\"„]\28}\29›]\25XBÇ\28\3\24\0PzçÁ=\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "TNT",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "HardcoreEnderExpansion:end_stone_terrain",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Infested End Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "HardcoreEnderExpansion:laboratory_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Laboratory Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "HardcoreEnderExpansion:obsidian_stairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Obsidian Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 13,
+    [name] = "HardcoreEnderExpansion:death_flower",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Death Flower",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "HardcoreEnderExpansion:death_flower",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Death Flower",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 15,
+    [name] = "HardcoreEnderExpansion:cinder",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cinder",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 14,
+    [name] = "HardcoreEnderExpansion:endium_ore",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Endium Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "HardcoreEnderExpansion:crossed_decoration",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Lilyfire",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 70,
+    [name] = "HardcoreEnderExpansion:obsidian_special",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Smooth Obsidian",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 68,
+    [name] = "HardcoreEnderExpansion:sphalerite",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sphalerite",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "HardcoreEnderExpansion:obsidian_special_glow",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Smooth Glowing Obsidian",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "HardcoreEnderExpansion:obsidian_special_glow",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Chiseled Glowing Obsidian",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "HardcoreEnderExpansion:laboratory_glass",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Laboratory Glass",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4,
+    [name] = "Forestry:ffarm",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b``f‡tK, u …OŒf\0\1\0K≤πµ\20\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 2,
+    [label] = "Farm Gearbox",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "Forestry:ffarm",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b``f‡tK, u …OŒf\0\1\0K≤πµ\20\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 3,
+    [label] = "Farm Hatch",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4,
+    [name] = "Forestry:ffarm",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b``f‡tK, u …OŒf\0\1\0K≤πµ\20\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 5,
+    [label] = "Farm Control",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "EnderIO:blockTransceiver",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Dimensional Transceiver",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "EnderIO:blockFusedQuartz",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fused Quartz",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 22,
+    [name] = "EnderIO:blockEndermanSkull",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Enderman Head",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "IronChest:BlockIronChest",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iron Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "IronChest:BlockIronChest",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Gold Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IronChest:BlockIronChest",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Steel Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IronChest:BlockIronChest",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Dark Steel Chest",
+}
+
+{
+    [outputs] = {
+    }    [size] = 1,
+    [name] = "Botania:specialFlower",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``)©,He‡ ÀLœ()ŒHLIe\0\0â,\9\4\23\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Nightshade",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "Botania:mushroom",
+    [maxDamage] = 0,
+    [damage] = 12,
+    [hasTag] = false,
+    [label] = "Brown Shimmering Mushroom",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "harvestcraft:spamcompressedsaltBlockalt",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Compressed Salt Block",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 18,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 1000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 10,
+    [label] = "ULV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 2000,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 11,
+    [label] = "LV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 3000,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 12,
+    [label] = "MV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 4000,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 13,
+    [label] = "HV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 5000,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 14,
+    [label] = "EV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 6000,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 15,
+    [label] = "IV Machine Hull",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 30,
+    [label] = "ULV Dynamo Hatch",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 34,
+    [label] = "EV Dynamo Hatch",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 44,
+    [label] = "EV Energy Hatch",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 8000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 50,
+    [label] = "Input Hatch (ULV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 16000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 61,
+    [label] = "Output Hatch (LV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 70,
+    [label] = "Input Bus (ULV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 71,
+    [label] = "Input Bus (LV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 80,
+    [label] = "Output Bus (ULV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 81,
+    [label] = "Output Bus (LV)",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 128000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 394,
+    [label] = "Advanced Ore Washing Plant III",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 902,
+    [label] = "HV Dynamo Hatch [Buffered]",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 5,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1225,
+    [label] = "16x Lead Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 166,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1226,
+    [label] = "1x Lead Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1240,
+    [label] = "1x Tin Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1241,
+    [label] = "2x Tin Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 11,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1242,
+    [label] = "4x Tin Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 13,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1245,
+    [label] = "16x Tin Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1246,
+    [label] = "1x Tin Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 6,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1300,
+    [label] = "1x Iron Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1341,
+    [label] = "2x Cupronickel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 17,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1342,
+    [label] = "4x Cupronickel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1345,
+    [label] = "16x Cupronickel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 10,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1346,
+    [label] = "1x Cupronickel Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1360,
+    [label] = "1x Copper Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 33,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1362,
+    [label] = "4x Copper Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1366,
+    [label] = "1x Copper Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1368,
+    [label] = "4x Copper Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1380,
+    [label] = "1x Annealed Copper Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 4,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1385,
+    [label] = "16x Annealed Copper Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1386,
+    [label] = "1x Annealed Copper Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1387,
+    [label] = "2x Annealed Copper Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1402,
+    [label] = "4x Kanthal Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 43,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1420,
+    [label] = "1x Gold Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 37,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1421,
+    [label] = "2x Gold Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1426,
+    [label] = "1x Gold Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1440,
+    [label] = "1x Electrum Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 9,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1442,
+    [label] = "4x Electrum Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1443,
+    [label] = "8x Electrum Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1461,
+    [label] = "2x Silver Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 15,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1462,
+    [label] = "4x Silver Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1465,
+    [label] = "16x Silver Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1467,
+    [label] = "2x Silver Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1502,
+    [label] = "4x Nichrome Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 5,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1507,
+    [label] = "2x Nichrome Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 12,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1520,
+    [label] = "1x Steel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1540,
+    [label] = "1x Black Steel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 5,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1542,
+    [label] = "4x Black Steel Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 6,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1560,
+    [label] = "1x Titanium Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 75,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1580,
+    [label] = "1x Aluminium Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1583,
+    [label] = "8x Aluminium Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1586,
+    [label] = "1x Aluminium Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 13,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1587,
+    [label] = "2x Aluminium Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 17,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1588,
+    [label] = "4x Aluminium Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 36,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1602,
+    [label] = "4x Graphene Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 14,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1640,
+    [label] = "1x Platinum Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1646,
+    [label] = "1x Platinum Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1680,
+    [label] = "1x Tungsten Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1681,
+    [label] = "2x Tungsten Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1683,
+    [label] = "8x Tungsten Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 0,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1686,
+    [label] = "1x Tungsten Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = true,
+    [damage] = 1687,
+    [label] = "2x Tungsten Cable",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 1701,
+    [label] = "2x HSS-G Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 180,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 200,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5101,
+    [label] = "Small Wooden Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 21,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 600,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5102,
+    [label] = "Wooden Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 111,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 1200,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5103,
+    [label] = "Large Wooden Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 60,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5110,
+    [label] = "Tiny Copper Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 400,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5120,
+    [label] = "Tiny Bronze Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 2400,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5122,
+    [label] = "Bronze Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 1600,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5131,
+    [label] = "Small Steel Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 5,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 4800,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5132,
+    [label] = "Steel Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 19200,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5134,
+    [label] = "Huge Steel Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 7200,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5142,
+    [label] = "Stainless Steel Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 3,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 12000,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5162,
+    [label] = "Tungstensteel Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 2,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5589,
+    [label] = "Tiny Tin Item Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5590,
+    [label] = "Small Tin Item Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 23,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5591,
+    [label] = "Tin Item Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5592,
+    [label] = "Large Tin Item Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 54,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5611,
+    [label] = "Small Electrum Item Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 19200,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 5683,
+    [label] = "Large PTFE Fluid Pipe",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 9231,
+    [label] = "Low Voltage Chest Buffer",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 1,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 11512,
+    [label] = "4x Energetic Alloy Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 10,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 30645,
+    [label] = "1x Redstone Alloy Wire",
+}
+
+{
+    [fluid] = {
+        [amount] = 0,
+    }    [size] = 8,
+    [name] = "gregtech:gt.blockmachines",
+    [hasTag] = false,
+    [maxSize] = 64,
+    [capacity] = 0,
+    [maxDamage] = 0,
+    [isCraftable] = false,
+    [damage] = 30650,
+    [label] = "16x Redstone Alloy Wire",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "LV Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "HV Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "EV Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "IV Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 10,
+    [hasTag] = false,
+    [label] = "Bronze Plated Bricks",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockcasings",
+    [maxDamage] = 0,
+    [damage] = 11,
+    [hasTag] = false,
+    [label] = "Heat Proof Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "gregtech:gt.blockcasings2",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Solid Steel Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 18,
+    [name] = "gregtech:gt.blockcasings2",
+    [maxDamage] = 0,
+    [damage] = 13,
+    [hasTag] = false,
+    [label] = "Steel Pipe Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 21,
+    [name] = "gregtech:gt.blockcasings4",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Clean Stainless Steel Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockcasings4",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Stable Titanium Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockcasings6",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Hermetic Casing I",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "gregtech:gt.blockcasings8",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Chemically Inert Machine Casing",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "gregtech:gt.blockgranites",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Black Granite Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 178,
+    [name] = "gregtech:gt.blockgranites",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Red Granite Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 256,
+    [name] = "gregtech:gt.block.longdistancepipe",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Long Distance Fluid Pipeline Pipe",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 320,
+    [name] = "gregtech:gt.blockstones",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Marble Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 527,
+    [name] = "gregtech:gt.blockstones",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Basalt Cobblestone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 11,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 54,
+    [hasTag] = false,
+    [label] = "Silver Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 86,
+    [hasTag] = false,
+    [label] = "Gold Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 128,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 878,
+    [hasTag] = false,
+    [label] = "Oilsands Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 52,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 1839,
+    [hasTag] = false,
+    [label] = "Sphalerite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2008,
+    [hasTag] = false,
+    [label] = "Beryllium Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2086,
+    [hasTag] = false,
+    [label] = "Gold Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2525,
+    [hasTag] = false,
+    [label] = "Sodalite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2526,
+    [hasTag] = false,
+    [label] = "Lapis Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2840,
+    [hasTag] = false,
+    [label] = "Tetrahedrite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2870,
+    [hasTag] = false,
+    [label] = "Magnetite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockores",
+    [maxDamage] = 0,
+    [damage] = 2945,
+    [hasTag] = false,
+    [label] = "Stibnite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "gregtech:gt.blockmetal2",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Block of Copper",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockmetal7",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Block of Thaumium",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "gregtech:gt.blockgem1",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Block of Aer",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "gregtech:gt.blockgem1",
+    [maxDamage] = 0,
+    [damage] = 3,
+    [hasTag] = false,
+    [label] = "Block of Aqua",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "gregtech:gt.blockgem2",
+    [maxDamage] = 0,
+    [damage] = 6,
+    [hasTag] = false,
+    [label] = "Block of Ordo",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 6,
+    [name] = "gregtech:gt.blockgem2",
+    [maxDamage] = 0,
+    [damage] = 15,
+    [hasTag] = false,
+    [label] = "Block of Terra",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 20,
+    [name] = "gregtech:gt.blockgem3",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Block of Charcoal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockreinforced",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Plascrete Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 190,
+    [name] = "gregtech:gt.blockreinforced",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Powder Barrel",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 12,
+    [name] = "witchery:witchlog",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Rowan Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "witchery:witchlog",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Alder Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 36,
+    [name] = "witchery:witchlog",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Hawthorn Wood",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 29,
+    [name] = "witchery:wolfhead",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Wolf Head",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "witchery:wolfhead",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Hellhound Head",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 39,
+    [name] = "witchery:icefence",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Ice Fence",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "witchery:snowpressureplate",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Snow Pressure Plate",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 288,
+    [name] = "witchery:snowstairs",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Snow Stairs",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 48,
+    [name] = "Ztones:lampf",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Flat Lamp",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.agonBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Agon ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.bittBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Bitt ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.crayBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Cray ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.fortBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fort ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.iszmBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iszm ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.jeltBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Jelt ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.korpBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Korp ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "Ztones:tile.krypBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Kryp ‚ì™",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 9,
+    [name] = "RandomThings:spectreGlass",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Spectre Glass",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "OpenComputers:case3",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Computer Case (Tier 3)",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "OpenBlocks:elevator",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Elevator",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "OpenBlocks:trophy",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``KÕ+…,©d`vJ,a\0\0≤P“Ç\18\0\0\0",
+    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Bat Trophy",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "CarpentersBlocks:blockCarpentersBlock",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Carpenter's Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 25,
+    [name] = "GalaxySpace:metalsblock",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Decorative Copper Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 37,
+    [name] = "GalaxySpace:phobosblocks",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Phobos Surface Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 98,
+    [name] = "GalaxySpace:phobosblocks",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Phobos Subsurface Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1933,
+    [name] = "GalaxySpace:phobosblocks",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Phobos Stone",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 23,
+    [name] = "GalaxySpace:deimosblocks",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Deimos Surface Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 28,
+    [name] = "GalaxySpace:deimosblocks",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Deimos Subsurface Block",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 4,
+    [name] = "JABBA:barrel",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Better Barrel",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 10,
+    [name] = "harvestthenether:glowFlower",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Glow Flower",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "StorageDrawers:fullDrawers1",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Drawer",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "StorageDrawers:fullDrawers2",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Oak Drawers 1x2",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "dreamcraft:BabyChest",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Baby Chest",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "bartworks:bw.blockores.01",
+    [maxDamage] = 0,
+    [damage] = 13,
+    [hasTag] = false,
+    [label] = "Roquesite Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IC2NuclearControl:blockNuclearControlMain",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Thermal Monitor",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "IC2NuclearControl:blockNuclearControlMain",
+    [maxDamage] = 0,
+    [damage] = 4,
+    [hasTag] = false,
+    [label] = "Industrial Information Panel",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "IC2NuclearControl:blockNuclearControlMain",
+    [maxDamage] = 0,
+    [damage] = 5,
+    [hasTag] = false,
+    [label] = "Information Panel Extender",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 19,
+    [hasTag] = false,
+    [label] = "Aluminium Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 302,
+    [hasTag] = false,
+    [label] = "Invar Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 305,
+    [hasTag] = false,
+    [label] = "Steel Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 316,
+    [hasTag] = false,
+    [label] = "Tungstensteel Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 334,
+    [hasTag] = false,
+    [label] = "Black Steel Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 809,
+    [hasTag] = false,
+    [label] = "Wood Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.blockframes",
+    [maxDamage] = 0,
+    [damage] = 889,
+    [hasTag] = false,
+    [label] = "Sealed Wood Frame Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 106,
+    [name] = "IC2:itemHarz",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Sticky Resin",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 17,
+    [name] = "IC2:itemDensePlates",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Dense Obsidian Plate",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemDust2",
+    [maxDamage] = 0,
+    [damage] = 2,
+    [hasTag] = false,
+    [label] = "Energium Dust",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemUran",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Enriched Uranium Nuclear Fuel",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 411,
+    [name] = "IC2:itemUran235small",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Tiny Pile of Uranium 235",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 191,
+    [name] = "IC2:itemUran238",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Uranium 238",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 98,
+    [name] = "IC2:itemFuelRod",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Fuel Rod (Empty)",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 41,
+    [name] = "IC2:itemPartAlloy",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Advanced Alloy",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 313,
+    [name] = "IC2:itemPartCarbonFibre",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Carbon Fibre",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 262,
+    [name] = "IC2:itemPartCarbonMesh",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Raw Carbon Mesh",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 36,
+    [name] = "IC2:itemPartCarbonPlate",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Carbon Plate",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 5,
+    [name] = "IC2:itemOreIridium",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iridium Ore",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 15,
+    [name] = "IC2:itemShardIridium",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Iridium Shard",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IC2:itemToolMEter",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "EU-Reader",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IC2:itemArmorHazmatHelmet",
+    [maxDamage] = 64,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Scuba Helmet",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 226,
+    [name] = "IC2:itemCellEmpty",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Empty Cell",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemCellEmpty",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Water Cell",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemCellEmpty",
+    [maxDamage] = 0,
+    [damage] = 9,
+    [hasTag] = false,
+    [label] = "Coolant Cell",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemCellEmpty",
+    [maxDamage] = 0,
+    [damage] = 12,
+    [hasTag] = false,
+    [label] = "Distilled Water Cell",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "gregtech:gt.depletedRodUranium4",
+    [maxDamage] = 100,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Quad Fuel Rod (Depleted Uranium)",
+}
+
+{
+    [maxSize] = 1,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "IC2:reactorVent",
+    [maxDamage] = 10000,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Heat Vent",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 10,
+    [name] = "IC2:itemPartCoalBall",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Coal Ball",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "IC2:itemPartIndustrialDiamond",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Industrial Diamond",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 70,
+    [name] = "IC2:itemScrapbox",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Scrap Box",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 133,
+    [name] = "IC2:itemFuelPlantBall",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Plantball",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "IC2:itemWeed",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Weed",
+}
+
+{
+    [outputs] = {
+    }    [size] = 1,
+    [name] = "IC2:itemCropSeed",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ\13≈A\
+¿ \12\4¿\13X\17üÂOÇÑË°\17\18ã}~;ó©\0!´Ø≥\7\17Rt∂ÙØ<ç\
+íÒ-»çüwr¡µéâ£®ãnÈÉP]b∆fÎB¯\0Æï∏\6M\0\0\0",
+    [crop] = {
+        [name] = "Bauxia",
+        [resistance] = 1,
+        [gain] = 1,
+        [tier] = 6,
+        [growth] = 1,
+    }    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Bauxia Seeds",
+}
+
+{
+    [outputs] = {
+    }    [size] = 3,
+    [name] = "IC2:itemCropSeed",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ\13≈a\
+Ä \12\6–od%\30ß+Ù´c\12\25*‘ÑÕ˙ı˛º\4\16∂b}éJÑ‡ô5¸\23nJ\17A˘\17Ï¸ö‹ç#÷>U\12Àu\30Ñd‚Õ\7k\22¬\7·\28lrI\0\0\0",
+    [crop] = {
+        [name] = "aurelia",
+        [resistance] = 1,
+        [gain] = 1,
+        [tier] = 8,
+        [growth] = 1,
+    }    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Aurelia Seeds",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4,
+    [name] = "IC2:itemCropSeed",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ\13≈Q\
+Ä \16\5¿∑`a\30´õ,ˆP°VX\5°”◊¸L\2\4{Òæf\21A\24Y-¸\23m&\17¡Ù!éÛ÷óN^\17[_FG,Œ2ô´ 9G\27S-S\1“\9\28yP\0\0\0",
+    [crop] = {
+        [name] = "Blazereed",
+        [resistance] = 1,
+        [gain] = 1,
+        [tier] = 6,
+        [growth] = 1,
+    }    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Blazereed Seeds",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2,
+    [name] = "IC2:itemCropSeed",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ\13≈A\
+Ä0\12\4¿\13D)>œ\31Ñ≤§=òJZË˜u.s\1Ç”sÏ’D†≥ZËø[\15)–∞á–€^\22\28c\7\19≈ìæXõ‡JŒ>óE•‡\3]oBùK\0\0\0",
+    [crop] = {
+        [name] = "Rape",
+        [resistance] = 1,
+        [gain] = 1,
+        [tier] = 4,
+        [growth] = 1,
+    }    [isCraftable] = false,
+    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "Rape Seeds",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 60,
+    [name] = "IC2:itemTerraWart",
+    [maxDamage] = 0,
+    [damage] = 0,
+    [hasTag] = false,
+    [label] = "Terra Wart",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 1,
+    [hasTag] = false,
+    [label] = "Charged Certus Quartz Crystal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 7,
+    [hasTag] = false,
+    [label] = "Fluix Crystal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 8,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 8,
+    [hasTag] = false,
+    [label] = "Fluix Dust",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 153,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 10,
+    [hasTag] = false,
+    [label] = "Pure Certus Quartz Crystal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 107,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 12,
+    [hasTag] = false,
+    [label] = "Pure Fluix Crystal",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 14,
+    [hasTag] = false,
+    [label] = "Inscriber Engineering Press",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 1,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 15,
+    [hasTag] = false,
+    [label] = "Inscriber Logic Press",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 42,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 16,
+    [hasTag] = false,
+    [label] = "Printed Calculation Circuit",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 17,
+    [hasTag] = false,
+    [label] = "Printed Engineering Circuit",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 34,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 18,
+    [hasTag] = false,
+    [label] = "Printed Logic Circuit",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 20,
+    [hasTag] = false,
+    [label] = "Printed Silicon",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 22,
+    [hasTag] = false,
+    [label] = "Logic Processor",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 4,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 23,
+    [hasTag] = false,
+    [label] = "Calculation Processor",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 24,
+    [hasTag] = false,
+    [label] = "Engineering Processor",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 27,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 25,
+    [hasTag] = false,
+    [label] = "Basic Card",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 29,
+    [hasTag] = false,
+    [label] = "Fuzzy Card",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 16,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 31,
+    [hasTag] = false,
+    [label] = "Inverter Card",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 35,
+    [hasTag] = false,
+    [label] = "¬ß61k¬ßr ME Storage Component",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 37,
+    [hasTag] = false,
+    [label] = "¬ßa16k¬ßr ME Storage Component",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 41,
+    [hasTag] = false,
+    [label] = "Wireless Receiver",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 1,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 43,
+    [hasTag] = false,
+    [label] = "Formation Core",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 44,
+    [hasTag] = false,
+    [label] = "Annihilation Core",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 52,
+    [hasTag] = false,
+    [label] = "Blank Pattern",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 32,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 53,
+    [hasTag] = false,
+    [label] = "Crafting Card",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 7,
+    [name] = "appliedenergistics2:item.ItemMultiMaterial",
+    [maxDamage] = 0,
+    [damage] = 54,
+    [hasTag] = false,
+    [label] = "Pattern Capacity Card",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 29,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 16,
+    [hasTag] = false,
+    [label] = "ME Glass Cable - Fluix",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 44,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 56,
+    [hasTag] = false,
+    [label] = "ME Smart Cable - Fluix",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 8,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 76,
+    [hasTag] = false,
+    [label] = "ME Dense Smart Cable - Fluix",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 627,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 140,
+    [hasTag] = false,
+    [label] = "Quartz Fiber",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 220,
+    [hasTag] = false,
+    [label] = "ME Storage Bus",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 3,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 260,
+    [hasTag] = false,
+    [label] = "ME Export Bus",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 0,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 440,
+    [hasTag] = false,
+    [label] = "ME Interface",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = true,
+    [size] = 2,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 460,
+    [hasTag] = false,
+    [label] = "P2P Tunnel - ME",
+}
+
+{
+    [maxSize] = 64,
+    [isCraftable] = false,
+    [size] = 2,
+    [name] = "appliedenergistics2:item.ItemMultiPart",
+    [maxDamage] = 0,
+    [damage] = 470,
+    [hasTag] = false,
+    [label] = "P2P Tunnel - GT EU",
+}
+
+{
+    [outputs] = {
+    }    [size] = 0,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡)O-—KŒœK.J-Ie\0\0007\0Ç5\26\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "wet.concrete",
+        [label] = "Wet Concrete",
+        [hasTag] = false,
+        [amount] = 2304,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Wet Concrete",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2451071,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\16Õ®L) OŒ»…/ LNLŒLâO/1-e\0\0}&7o#\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "hydrochloricacid_gt5u",
+        [label] = "Hydrochloric Acid",
+        [hasTag] = false,
+        [amount] = 2451071,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Hydrochloric Acid",
+}
+
+{
+    [outputs] = {
+    }    [size] = 39600,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡/ »O…,ÕU(.ÕIK,Ie\0\0=ïπ«\29\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "rhodium sulfate",
+        [label] = "Rhodium Sulfate",
+        [hasTag] = false,
+        [amount] = 39600,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Rhodium Sulfate",
+}
+
+{
+    [outputs] = {
+    }    [size] = 11200,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLaê Õœ)IÕ”+»/I,.Œ,ÕUH…,.ÕIK,Ie\0\0U˘–∂(\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "molten.potassium disulfate",
+        [label] = "Molten Potassium Disulfate",
+        [hasTag] = false,
+        [amount] = 11200,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Potassium Disulfate",
+}
+
+{
+    [outputs] = {
+    }    [size] = 288,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\16…Õœ)IÕ”+)ÕK/\0062Ä85á\1\0<<∞¥\"\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "molten.tungstensteel",
+        [label] = "Molten Tungstensteel",
+        [hasTag] = false,
+        [amount] = 288,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Tungstensteel",
+}
+
+{
+    [outputs] = {
+    }    [size] = 0,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\0161÷1N…LŒ»…/ OJÕ´ L…ÃKe\0\0†¸¨Ö\"\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "3,3dichlorobenzidine",
+        [label] = "3,3-Dichlorobenzidine",
+        [hasTag] = false,
+        [amount] = 1000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of 3,3-Dichlorobenzidine",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡KN,J œÀÕœÀØ»LIe\0\0πY-F\28\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "carbonmonoxide",
+        [label] = "Carbon Monoxide",
+        [hasTag] = false,
+        [amount] = 2000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Carbon Monoxide",
+}
+
+{
+    [outputs] = {
+    }    [size] = 28382,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡ÕÕœ)IÕ”K-»Ø\0r\1\31O£ÿ\27\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "molten.epoxid",
+        [label] = "Molten Epoxid",
+        [hasTag] = false,
+        [amount] = 28382,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Epoxid",
+}
+
+{
+    [outputs] = {
+    }    [size] = 2793093,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa`ÀØ®LOÕc\0\0÷W®T\20\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "oxygen",
+        [label] = "Oxygen",
+        [hasTag] = false,
+        [amount] = 2793093,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Oxygen",
+}
+
+{
+    [outputs] = {
+    }    [size] = 36000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa`+»HÕÀœa\0\0007kQ!\20\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "phenol",
+        [label] = "Phenol",
+        [hasTag] = false,
+        [amount] = 36000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Phenol",
+}
+
+{
+    [outputs] = {
+    }    [size] = 11168,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡œÕœ)IÕ”+ŒÃ…LŒœKe\0\00044‚<\29\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "molten.silicone",
+        [label] = "Molten Silicone Rubber",
+        [hasTag] = false,
+        [amount] = 11168,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Silicone Rubber",
+}
+
+{
+    [outputs] = {
+    }    [size] = 3997600,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡»®L) OOÕc\0\0íÀ~\2\22\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "hydrogen",
+        [label] = "Hydrogen",
+        [hasTag] = false,
+        [amount] = 3997600,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Hydrogen",
+}
+
+{
+    [outputs] = {
+    }    [size] = 20000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\16(ŒO…,ÕU()ÕK/.I,Ie\0\0Ãã‘\1\30\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "sodium tungstate",
+        [label] = "Sodium Tungstate",
+        [hasTag] = false,
+        [amount] = 20000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Sodium Tungstate",
+}
+
+{
+    [outputs] = {
+    }    [size] = 0,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLaê»Õœ)IÕ”+»œ©LJÕ´ ÃÕLI¨ œIe\0\0t>ÄË&\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "molten.polybenzimidazole",
+        [label] = "Molten Polybenzimidazole",
+        [hasTag] = false,
+        [amount] = 1000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Polybenzimidazole",
+}
+
+{
+    [outputs] = {
+    }    [size] = 0,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡.»(IÃ…LNL\6r\0008˙ù\17\25\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "phtalicacid",
+        [label] = "Phthalic Acid",
+        [hasTag] = false,
+        [amount] = 1000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Phthalic Acid",
+}
+
+{
+    [outputs] = {
+    }    [size] = 18104,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡ÀÕœ)IÕ”+»I,.…Lf\0\0$HûK\28\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "molten.plastic",
+        [label] = "Molten Polyethylene",
+        [hasTag] = false,
+        [amount] = 18104,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Molten Polyethylene",
+}
+
+{
+    [outputs] = {
+    }    [size] = 8000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡……,\4“˘\21ïÈ©y\12\0\0\3\14w\26\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "liquidoxygen",
+        [label] = "Liquid Oxygen",
+        [hasTag] = false,
+        [amount] = 8000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Liquid Oxygen",
+}
+
+{
+    [outputs] = {
+    }    [size] = 23466,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa`OJÕ´JÕKe\0\0U2∏©\21\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "benzene",
+        [label] = "Benzene",
+        [hasTag] = false,
+        [amount] = 23466,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Benzene",
+}
+
+{
+    [outputs] = {
+    }    [size] = 1000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\0166 À,) OŒ»…/ OJÕ´JÕKe\0\0vπ\17Ò!\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "2nitrochlorobenzene",
+        [label] = "2-Nitrochlorobenzene",
+        [hasTag] = false,
+        [amount] = 1000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of 2-Nitrochlorobenzene",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4000000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\16ÃL6J…,.…Ã…IM)O,I-b\0\0X∂˛è\31\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "ic2distilledwater",
+        [label] = "Distilled Water",
+        [hasTag] = false,
+        [amount] = 4000000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Distilled Water",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4000000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa`-O,I-b\0\0002$êî\19\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "water",
+        [label] = "Water",
+        [hasTag] = false,
+        [amount] = 4000000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Water",
+}
+
+{
+    [outputs] = {
+    }    [size] = 4000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡ L6JŒœœIÃ+a\0\0Ñ\16B\18\24\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "ic2coolant",
+        [label] = "IC2 Coolant",
+        [hasTag] = false,
+        [amount] = 4000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of IC2 Coolant",
+}
+
+{
+    [outputs] = {
+    }    [size] = 55000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡,NÃ))O,I-b\0\0.π–Ï\23\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "saltwater",
+        [label] = "Salt Water",
+        [hasTag] = false,
+        [amount] = 55000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Salt Water",
+}
+
+{
+    [outputs] = {
+    }    [size] = 18000,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa\16œ…,\4“Òyô%Eâ%ô˘yπô\21%•E©\12\0b\24ƒÓ%\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "liquid_nitrationmixture",
+        [label] = "Nitration Mixture",
+        [hasTag] = false,
+        [amount] = 18000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Nitration Mixture",
+}
+
+{
+    [outputs] = {
+    }    [size] = 1269283,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡ÃÀ,) O+MÕa\0\0ñ\
+éx\23\0\0\0",
+    [isCraftable] = false,
+    [fluidDrop] = {
+        [name] = "nitrofuel",
+        [label] = "Cetane-Boosted Diesel",
+        [hasTag] = false,
+        [amount] = 1269283,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Cetane-Boosted Diesel",
+}
+
+{
+    [outputs] = {
+    }    [size] = 0,
+    [name] = "ae2fc:fluid_drop",
+    [inputs] = {
+    }    [tag] = "\31ã\8\0\0\0\0\0\0ˇ„b`‡``uÀ)ÕLa‡MŒ»…/ OJÕ´JÕKe\0\0ß’\\`\27\0\0\0",
+    [isCraftable] = true,
+    [fluidDrop] = {
+        [name] = "chlorobenzene",
+        [label] = "Chlorobenzene",
+        [hasTag] = false,
+        [amount] = 1000,
+    }    [maxSize] = 64,
+    [maxDamage] = 0,
+    [hasTag] = true,
+    [damage] = 0,
+    [label] = "drop of Chlorobenzene",
+}
+
