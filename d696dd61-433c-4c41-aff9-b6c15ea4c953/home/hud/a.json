@@ -1,0 +1,76 @@
+[
+  {
+    "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+    "removeAll": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "removeAll"
+    },
+    "addCube3D": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addCube3D"
+    },
+    "addRect": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addRect"
+    },
+    "addDot": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addDot"
+    },
+    "getObjectCount": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "getObjectCount"
+    },
+    "slot": -1,
+    "addTextLabel": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addTextLabel"
+    },
+    "addLine3D": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addLine3D"
+    },
+    "addDot3D": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addDot3D"
+    },
+    "addQuad3D": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addQuad3D"
+    },
+    "newUniqueKey": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "newUniqueKey"
+    },
+    "addTriangle": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addTriangle"
+    },
+    "type": "glasses",
+    "addQuad": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addQuad"
+    },
+    "addFloatingText": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addFloatingText"
+    },
+    "addItem": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addItem"
+    },
+    "getBindPlayers": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "getBindPlayers"
+    },
+    "addTriangle3D": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "addTriangle3D"
+    },
+    "removeObject": {
+      "address": "c72c170a-d63f-46df-bd7d-d20f9970531f",
+      "name": "removeObject"
+    }
+  }
+]
+"svinerus"

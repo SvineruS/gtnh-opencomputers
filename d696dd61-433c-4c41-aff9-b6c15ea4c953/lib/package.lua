@@ -72,10 +72,6 @@ table.insert(searchers, function(module)
 end)
 
 function require(module)
-    --local script_path = debug.getinfo(1, 'S').source:sub(2)
-    --print(script_path)
-
-
   checkArg(1, module, "string")
   if loaded[module] ~= nil then
     return loaded[module]
