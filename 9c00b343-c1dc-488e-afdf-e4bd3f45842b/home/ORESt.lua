@@ -171,6 +171,9 @@ local customPaths = {
     {name = "Perlite", path = L2_WASHER_MACERATOR},
     {name = "Garnet Sand", path = L2_WASHER_MACERATOR},
     {name = "Tungstate", path = L2_WASHER_MACERATOR},
+    {name = "Naquadah", path = L2_WASHER_MACERATOR},
+    {name = "Granitic Mineral Sand", path = L2_WASHER_MACERATOR},
+    {name = "Rutile", path = L2_WASHER_MACERATOR},
 
 
 
@@ -180,6 +183,9 @@ local customPaths = {
     {name = "Chalcopyrite", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Pyrolusite", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Fullers Earth", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Palladium", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Platinum", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Sheldonite", path = L3_WASHER_THERMAL},  -- gold + cadmium
 
 
 
@@ -219,9 +225,10 @@ local customPos = {
 
     {name = "Purified Galena Ore", pos = POS_BASE},  -- for indium
     {name = "Purified Sphalerite Ore", pos = POS_BASE}, -- for indium
-    {name = "Crushed Ilmenite Ore", pos = POS_BASE}, -- for washing in sulfuric acid to get more rutile
+    {name = "Purified Ilmenite Ore", pos = POS_BASE}, -- for washing in sulfuric acid to get more rutile
 
     {name = "Platinum Metallic Powder Dust", pos = POS_BASE}, -- platline
+    {name = "Palladium Metallic Powder Dust", pos = POS_BASE}, -- platline
 
 
     {name = "Redstone", pos = POS_BASE},
@@ -322,12 +329,6 @@ function whereToPutItem(item)
 end
 
 
--- 1 - macerator
--- 2 - ore washer
--- 3 - thermal centrifuge
--- 4x - chemical bath mercury, then 2 or 3 or 6
--- 5x - chemical bath blue shit, then 2 or 3 or 6
--- 6 - sifter
 function customPath(item, name, path)
     if labelContains(item, "Crushed "..name) or labelContains(item, "Ground "..name) then
         if (path == 1) then
@@ -339,7 +340,6 @@ function customPath(item, name, path)
         if (path == 52 or path == 53 or path == 56) then
             return true, POS_CHEM_BATH_BLUE_SHIT
         end
-        return true, POS_ORE_WASHER
     end
 
     if labelContains(item, "Purified "..name) then

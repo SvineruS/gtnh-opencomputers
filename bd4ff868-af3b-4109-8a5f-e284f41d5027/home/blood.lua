@@ -12,9 +12,9 @@ local inv = component.inventory_controller
 local anal = component.geolyzer
 
 
-local CHEST_SIDE = sides.back
-local REDSTONE_SIDE = sides.right
-
+local CHEST_SIDE = sides.top
+local REDSTONE_SIDE = sides.back
+local ALTAR_SIDE = sides.front
 
 local ITEMS = {
     {from = "Empty Cell", to = "Life Cell"},
@@ -22,59 +22,65 @@ local ITEMS = {
     {from = "Blank Slate", to = "Reinforced Slate"},
     {from = "Reinforced Slate", to = "Imbued Slate"},
     {from = "Thaumium Block", to = "Blood-Soaked Thaumium Block"},
+    {from = "Smooth Sandstone", to = "Blood Stained Block"},
+
 }
 
 
 function main()
     while true do
-        local blood_amount = get_blood_amount()
-        print("Blood amount: ", blood_amount)
-
-        if blood_amount < 1 then
-            print("Not enough blood in the altar!")
-            return
-        end
-
-        local item = get_item_in_altar()
-        if item ~= nil then
-            print("Item in altar: ", item.name)
-            return
-        end
-
-        local itemStrategy = getFromChest()
-        if itemStrategy ~= nil then
-            print("Got item strategy: ", itemStrategy)
-
-            -- place item in altar
-            local success = inv.dropIntoSlot(sides.bottom, 1, itemStrategy.count)
-            assert(success, "Failed to drop item into altar")
-
-            while true do
-                os.sleep(1)
-                local item = get_item_in_altar()
-                if item == nil then
-                    print("No item in altar, waiting...")
-                elseif item.label == itemStrategy then
-                    print("Item transformed successfully to: ", item.name)
-                    inv.suckFromSlot(sides.bottom, 1, item.size)
-                    assert(putToChest(), "Failed to put item back to chest")
-                    break
-                else
-                    print(item.label .. " != " .. itemStrategy .. ", waiting...")
-                end
-            end
-
-        else
-            print("No suitable item found in chest")
-            return
-        end
-
-
-
-
-
-        os.sleep(5)
+        iter()
+        os.sleep(0.5)
     end
+end
+
+function iter()
+    --local blood_amount = get_blood_amount()
+    --print("Blood amount: ", blood_amount)
+    --
+    --if blood_amount < 5 then
+    --    print("Not enough blood in the altar!")
+    --    return
+    --end
+
+    local item = get_item_in_altar()
+    if item ~= nil then
+        print("Item in altar: ", item.name)
+        return
+    end
+
+    local itemStrategy = getFromChest()
+    if itemStrategy ~= nil then
+        print("Got item strategy: ", itemStrategy)
+
+        -- place item in altar
+        local success = inv.dropIntoSlot(ALTAR_SIDE, 1, itemStrategy.count)
+        assert(success, "Failed to drop item into altar")
+
+        while true do
+            os.sleep(0.5)
+            local item = get_item_in_altar()
+            if item == nil then
+                print("No item in altar, waiting...")
+            elseif item.label == itemStrategy then
+                print("Item transformed successfully to: ", item.name)
+                inv.suckFromSlot(ALTAR_SIDE, 1, item.size)
+                assert(putToChest(), "Failed to put item back to chest")
+                break
+            else
+                print(item.label .. " != " .. itemStrategy .. ", waiting...")
+            end
+        end
+
+    else
+        print("No suitable item found in chest")
+        return
+    end
+
+
+
+
+
 end
 
 
@@ -89,7 +95,7 @@ end
 
 
 function get_item_in_altar()
-    local item = inv.getStackInSlot(sides.bottom, 1)
+    local item = inv.getStackInSlot(ALTAR_SIDE, 1)
     print(serialization.serialize(item))
     return item
 end

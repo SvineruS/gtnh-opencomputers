@@ -254,7 +254,7 @@ function main()
     while true do
         for _, item in ipairs(STOCKING) do
 
-            checkItem(item)
+            --checkItem(item)
             print("")
         end
     end
@@ -271,47 +271,58 @@ function checkItem(item)
 
 
 
-
-        while true do
-
-
-
-            local isComputing = tracking.isComputing()
-            local hasFailed, reason = tracking.hasFailed()
-            local isDone = tracking.isDone()
-            local isCanceled = tracking.isCanceled()
-
-            print(serialization.serialize({
-                isComputing = isComputing,
-                hasFailed = hasFailed,
-                reason = reason,
-                isDone = isDone,
-                isCanceled = isCanceled,
-            }))
-
-            --
-            --if hasFailed then
-            --    print("Failed: " .. reason)
-            --    break
-            --end
-            --if isDone then
-            --    print("Done")
-            --    break
-            --end
-            --
-            --if isCanceled then
-            --    print("Canceled")
-            --    break
-            --end
-
-            io.write(".")
-            os.sleep(3)
-        end
+        trackCraftRequest(tracking)
 
 
     end
     os.sleep(1)
 end
+
+
+function waitForCpu()
+    me.getCpus()
+end
+
+
+function trackCraftRequest(tracking)
+
+    while true do
+
+
+
+        local isComputing = tracking.isComputing()
+        local hasFailed, reason = tracking.hasFailed()
+        local isDone = tracking.isDone()
+        local isCanceled = tracking.isCanceled()
+
+        print(serialization.serialize({
+            isComputing = isComputing,
+            hasFailed = hasFailed,
+            reason = reason,
+            isDone = isDone,
+            isCanceled = isCanceled,
+        }))
+
+        --
+        --if hasFailed then
+        --    print("Failed: " .. reason)
+        --    break
+        --end
+        --if isDone then
+        --    print("Done")
+        --    break
+        --end
+        --
+        --if isCanceled then
+        --    print("Canceled")
+        --    break
+        --end
+
+        io.write(".")
+        os.sleep(3)
+    end
+end
+
 
 
 

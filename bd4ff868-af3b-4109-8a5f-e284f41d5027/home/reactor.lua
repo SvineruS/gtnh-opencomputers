@@ -21,7 +21,7 @@ function main()
         if item == nil then
             -- put coolant from internal inventory
             putCoolantToSlotWithRetries(slot)
-        else if not string.match(item.label, "Coolant")  then
+        elseif not string.match(item.label, "Coolant")  then
             print("Removing non-coolant item from slot ", slot, ": ", item.label)
             local res = inv.suckFromSlot(side, slot, item.size)
             assert(res, "Failed to suck item from slot " .. slot .. " on side " .. side)

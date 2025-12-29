@@ -1,54 +1,76 @@
-
+local event = require('event')
 local component = require('component')
 local term = require('term')
 
 local serialization = require('serialization')
 local json = require('json')
 
+package.loaded.gui = nil
+local gui = require('gui')
 
-
-local glasses = {}
 
 
 local pd = {}
 
 
-function pd.main()
+local gt = component.glasses
 
-    ---- Initialization
-    --term.clear()
-    --
-    for address in component.list('glasses') do
-        table.insert(glasses, component.proxy(component.get(address)))
+local guiElements = {}
+
+
+local icon = nil
+
+function initHud()
+    gt.removeAll()
+
+    local btn = gui.button(gt, "Click me", 0.01, 0.9, 0.05, 0.02, {1, 1, 1})
+    table.insert(guiElements, btn)
+    icon = gui.icon(gt, "gregtech:gt.blockmachines", 584, 0.2, 0.2, 1)
+
+end
+
+
+
+
+
+
+
+
+function glasses_on(_, addr, who, w, h)
+    print("Glasses on detected from " .. who .. " with resolution " .. w .. "x" .. h)
+end
+function interrupted()
+    working = false
+end
+function hudClick(_, addr, who, x, y, btn)
+    print("HUD click detected from " .. who .. " at (" .. x .. ", " .. y .. ") with button " .. btn)
+
+    for _, element in ipairs(guiElements) do
+        if element.isClicked and element.isClicked(x, y) then
+            print("Button clicked!")
+        end
     end
 
+end
 
-    print(json.encode(glasses))
-
-
-    glassesTerminal = require("component").glasses
-    print(json.encode(glassesTerminal.getBindPlayers()))
-
-    --glassesTerminal.removeAll()
-    --
-    --print(json.encode(glassesTerminal))
-    ----
-    --
-    --text = glassesTerminal.addTextLabel()
-    --text.setText("Hello World!")
-    --text.setPosition(100, 100)
-    --
-    --Widget_ItemIcon = glassesTerminal.addItem()
-    --Widget_ItemIcon.setItem("gregtech:gt.blockmachines", 11)
-    --Widget_ItemIcon.setPosition(100, 100)
-    --
-    --print(json.encode(Widget_ItemIcon))
-
-    --Widget_ItemIcon.addTranslation(50, 50, 0) -- modifier #1
-    --Widget_ItemIcon.addScale(40, 40, 40)        -- modifier #2
-    --Widget_ItemIcon.addRotation(180, 1, 0, 0)   -- modifier #3
+function pd.main()
+    event.listen("glasses_on", glasses_on)
+    event.listen("interrupted", interrupted)
+    event.listen("hud_click", hudClick)
+    working = true
 
 
+
+    initHud()
+    while working do
+        os.sleep(1)
+    end
+
+    gt.removeAll()
+
+    event.ignore("glasses_on", glasses_on)
+    event.ignore("interrupted", interrupted)
+    event.ignore("hud_click", hudClick)
 end
 
 pd.main()

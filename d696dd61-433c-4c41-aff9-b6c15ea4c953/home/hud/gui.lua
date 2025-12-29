@@ -1,0 +1,95 @@
+local component = require("component")
+
+local database = component.database
+
+local gui = {}
+
+local W = 750
+local H = 425
+
+
+---@param gt glasses
+function gui.icon(gt, item_name, item_dmg, x, y, s)
+    x = x * W
+    y = y * H
+    x = x - 8 * s
+    y = y - 8 * s
+
+    database.set(1, item_name, item_dmg)
+
+
+    Widget_ItemIcon = gt.addItem()
+    Widget_ItemIcon.setItem(database.address, 1)
+    Widget_ItemIcon.setPosition(x, y)
+    Widget_ItemIcon.setScale(s)
+    return Widget_ItemIcon
+
+end
+
+---@param gt glasses
+function gui.text(gt, text_string, x, y, s, color)
+
+    x = x * W
+    y = y * H
+
+    Widget_Text = gt.addTextLabel()
+    Widget_Text.setPosition(x, y)
+    Widget_Text.setText(text_string)
+    Widget_Text.setColor(color[1], color[2], color[3])
+    Widget_Text.setScale(s)
+    return Widget_Text
+
+end
+
+---@param gt glasses
+function gui.rect(gt, x, y, w, h, color)
+
+    x = x * W
+    y = y * H
+    w = w * W
+    h = h * H
+
+    local Widget_Rect = gt.addRect()
+    Widget_Rect.setPosition(x, y)
+    Widget_Rect.setSize(h, w)
+    Widget_Rect.setColor(color[1], color[2], color[3])
+    Widget_Rect.setAlpha(color[4])
+    return Widget_Rect
+
+end
+
+
+---@param gt glasses
+function gui.button(gt, text_string, x, y, w, h, color)
+
+    local rect = gui.rect(gt, x, y, w, h, {0.5, 0.7, 0.5, 0.8})
+    local text = gui.text(gt, text_string, x, y, 1, {1, 1, 1})
+
+    local boundingBox = {
+        x = x * W,
+        y = y * H,
+        w = w * W,
+        h = h * H
+    }
+    local button = {
+        rect = rect,
+        text = text,
+        box = boundingBox
+    }
+
+    function button.isClicked(clickX, clickY)
+        if clickX >= button.box.x and clickX <= (button.box.x + button.box.w) and
+           clickY >= button.box.y and clickY <= (button.box.y + button.box.h) then
+            return true
+        end
+        return false
+    end
+
+    return button
+
+end
+
+
+
+
+return gui

@@ -1,0 +1,285 @@
+local sides = require("sides")
+
+--Transposer 1:
+--East = INPUT
+--West = Transposer 2
+--Up = BASE
+--North = MACERATOR
+--South = CENTRIFUGE
+
+--Transposer 2:
+--East = INPUT
+--West = Transposer 3
+--Up = ORE_WASHER
+--North = THERMAL_CENTRIFUGE
+--South = SIFTER
+
+--Transposer 3:
+--East = INPUT
+--West = UNKNOWN
+--Up = ELECTROLYZER
+--North = CHEM_BATH_BLUE_SHIT
+--South = CHEM_BATH_MERCURY
+
+
+
+-- enum Pos
+TARGET_OUTPUT = 10 + sides.up
+TARGET_T2 = 10 + sides.west
+TARGET_MACERATOR = 10 + sides.north
+TARGET_CENTRIFUGE = 10 + sides.south
+
+TARGET_T3 = 20 + sides.west
+TARGET_ORE_WASHER = 20 + sides.up
+TARGET_THERMAL_CENTRIFUGE = 20 + sides.north
+TARGET_SIFTER = 20 + sides.south
+
+TARGET_UNKNOWN = 30 + sides.west
+TARGET_ELECTROLYZER = 30 + sides.up
+TARGET_CHEM_BATH_BLUE_SHIT = 30 + sides.north
+TARGET_CHEM_BATH_MERCURY = 30 + sides.south
+
+
+-- enum Wash
+WASH_NONE = 0
+WASH_WATER = 1
+WASH_MERCURY = 2
+WASH_NaSO4 = 3
+
+-- enum Path
+PATH_MACERATOR = 1
+PATH_THERMAL = 2
+PATH_SIFTER = 6  -- only washed ores!!
+
+
+
+-- enum Line
+L1_MACERATOR = {wash = WASH_NONE, path = PATH_MACERATOR}
+L2_WASHER_MACERATOR = {wash = WASH_WATER, path = PATH_MACERATOR}
+L3_WASHER_THERMAL = {wash = WASH_WATER, path = PATH_THERMAL}
+L6_SIFTER = {wash = WASH_WATER, path = PATH_SIFTER}
+L42_BATH_MERCURY_WASHER = {wash = WASH_MERCURY, path = PATH_MACERATOR}
+L43_BATH_MERCURY_THERMAL = {wash = WASH_MERCURY, path = PATH_THERMAL}
+L46_BATH_MERCURY_SIFTER = {wash = WASH_MERCURY, path = PATH_SIFTER}
+L52_BATH_NaSO_WASHER = {wash = WASH_NaSO4, path = PATH_MACERATOR}
+L53_BATH_NaSO_THERMAL = {wash = WASH_NaSO4, path = PATH_THERMAL}
+L56_BATH_NaSO_SIFTER = {wash = WASH_NaSO4, path = PATH_SIFTER}
+
+
+local targetToName = {
+    [TARGET_OUTPUT] = "\27[35mOutput\27[37m",
+    [TARGET_MACERATOR] = "\27[33mMacerator\27[37m",
+    [TARGET_CENTRIFUGE] = "\27[35mCentrifuge\27[37m",
+
+    [TARGET_ORE_WASHER] = "\27[34mOre Washer\27[37m",
+    [TARGET_THERMAL_CENTRIFUGE] = "\27[35mThermal centrifuge\27[37m",
+    [TARGET_SIFTER] = "\27[33mSifter",
+
+    [TARGET_UNKNOWN] = "\27[31mUNKNOWN\27[37m",
+    [TARGET_ELECTROLYZER] = "\27[96mElectrolyzer\27[37m",
+    [TARGET_CHEM_BATH_BLUE_SHIT] = "\27[94mChemBath NaSO\27[37m",
+    [TARGET_CHEM_BATH_MERCURY] = "\27[90mChemBath Mercury\27[37m"
+}
+
+
+
+local config = {}
+
+
+
+-- only crushed / purified ores
+local customPaths = {
+    {name = "Monazite", path = L1_MACERATOR},  -- thorium, neodymium, rare earth
+    {name = "Tetrahedrite", path = L1_MACERATOR},  -- zinc, antimony, antimony
+    {name = "Grossular", path = L1_MACERATOR},  -- yellow garnet, calcium, calcium
+    {name = "Bastnasite", path = L1_MACERATOR},  -- neodymium, rare earth, rare earth
+    {name = "Lepidolite", path = L1_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Pentlandite", path = L1_MACERATOR}, -- iron, sulfur, cobalt
+    {name = "Neodymium", path = L1_MACERATOR}, -- monazite, rare earth, rare earth
+    {name = "Emerald", path = L1_MACERATOR}, -- beryllium, alumina, alumina
+    {name = "Lead", path = L1_MACERATOR},
+    {name = "Ruby", path = L1_MACERATOR},
+    {name = "Antimony", path = L1_MACERATOR},
+    {name = "Silver", path = L1_MACERATOR},
+    {name = "Lithium", path = L1_MACERATOR},
+    {name = "Sodalite", path = L1_MACERATOR},
+    {name = "Rare Earth %(I%)", path = L1_MACERATOR},
+    {name = "Rare Earth %(II%)", path = L1_MACERATOR},
+
+
+    {name = "Diatomite", path = L2_WASHER_MACERATOR}, -- banded iron, sapphire, sapphire
+    {name = "Pyrite", path = L2_WASHER_MACERATOR}, -- sulfur, tricalcium phosphate, iron
+    {name = "Nickel", path = L2_WASHER_MACERATOR}, -- cobalt, platinum, iron
+    {name = "Salt", path = L2_WASHER_MACERATOR},
+    {name = "Rock Salt", path = L2_WASHER_MACERATOR},
+    {name = "Magnetite", path = L2_WASHER_MACERATOR},  -- iron, gold, gold
+    {name = "Galena", path = L2_WASHER_MACERATOR},  -- sulfur, silver, lead
+    {name = "Powellite", path = L2_WASHER_MACERATOR}, -- powellite (all)
+    {name = "Molybdenite", path = L2_WASHER_MACERATOR}, -- molybdenum (all)
+    {name = "Molybdenum", path = L2_WASHER_MACERATOR}, -- molybdenum (all)
+    {name = "Wulfenite", path = L2_WASHER_MACERATOR}, -- wulfenite (all)
+    {name = "Beryllium", path = L2_WASHER_MACERATOR}, -- emerald (all)
+    {name = "Magnesite", path = L2_WASHER_MACERATOR},  -- magnesium (all)
+    {name = "Aluminium", path = L2_WASHER_MACERATOR},  -- bauxite (all)
+    {name = "Barite", path = L2_WASHER_MACERATOR},  -- barite (all)
+    {name = "Cobaltite", path = L2_WASHER_MACERATOR},  -- cobalt (all)
+    {name = "Graphite", path = L2_WASHER_MACERATOR},  -- carbon (all)
+    {name = "Sulfur", path = L2_WASHER_MACERATOR},  -- sulfur (all)
+    {name = "Mica", path = L2_WASHER_MACERATOR}, -- mica (all)
+    --{name = "Coal", path = L2_WASHER_MACERATOR},  -- lignite coal, thorium, thorium
+    {name = "Spessartine", path = L2_WASHER_MACERATOR},  -- red garnet, manganese
+    {name = "Ilmenite", path = L2_WASHER_MACERATOR},  -- iron, rutile
+    {name = "Uvarovite", path = L2_WASHER_MACERATOR},  -- yellow garnet, chrome, chrome
+    {name = "Chromite", path = L2_WASHER_MACERATOR},  -- iron, chrome, chrome
+    {name = "Spodumene", path = L2_WASHER_MACERATOR},  -- alumina, lithium, lithium
+    {name = "Vanadium Magnetite", path = L2_WASHER_MACERATOR},  -- magnetite, vanadium, vanadium. MUST BE BEFORE MAGNETITE
+    {name = "Arsenic", path = L2_WASHER_MACERATOR},
+    {name = "Desh", path = L2_WASHER_MACERATOR},
+    {name = "Basaltic Mineral Sand", path = L2_WASHER_MACERATOR},
+    {name = "Yellow Limonite", path = L2_WASHER_MACERATOR},
+    {name = "Brown Limonite", path = L2_WASHER_MACERATOR},
+    {name = "Asbestos", path = L2_WASHER_MACERATOR},
+    {name = "Roasted Nickel", path = L2_WASHER_MACERATOR},
+    {name = "Electrotine", path = L2_WASHER_MACERATOR},
+    {name = "Cassiterite Sand", path = L2_WASHER_MACERATOR},
+    {name = "Cryolite", path = L2_WASHER_MACERATOR},
+    {name = "Lazurite", path = L2_WASHER_MACERATOR},
+    {name = "Bismuth", path = L2_WASHER_MACERATOR},
+    {name = "Vyroxeres", path = L2_WASHER_MACERATOR},
+    {name = "Wulfenite", path = L2_WASHER_MACERATOR},
+    {name = "Oriharukon", path = L2_WASHER_MACERATOR},
+    {name = "Tanzanite", path = L2_WASHER_MACERATOR},
+    {name = "Mirabilite", path = L2_WASHER_MACERATOR},
+    {name = "Uranium 238", path = L2_WASHER_MACERATOR},
+    {name = "Copper", path = L2_WASHER_MACERATOR},  -- mercury bath, 70% gold + 11% gold
+    {name = "Roasted Iron", path = L2_WASHER_MACERATOR},
+    {name = "Perlite", path = L2_WASHER_MACERATOR},
+    {name = "Garnet Sand", path = L2_WASHER_MACERATOR},
+    {name = "Tungstate", path = L2_WASHER_MACERATOR},
+    {name = "Naquadah", path = L2_WASHER_MACERATOR},
+    {name = "Granitic Mineral Sand", path = L2_WASHER_MACERATOR},
+    {name = "Rutile", path = L2_WASHER_MACERATOR},
+    {name = "Kyanite", path = L2_WASHER_MACERATOR},
+    {name = "Banded Iron", path = L2_WASHER_MACERATOR},
+
+
+
+
+    {name = "Redstone", path = L3_WASHER_THERMAL},  -- cinnabar, rare earth, glowstone
+    {name = "Scheelite", path = L3_WASHER_THERMAL},  -- redstone, sulfur, glowstone
+    {name = "Chalcopyrite", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Pyrolusite", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Fullers Earth", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Palladium", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Platinum", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Sheldonite", path = L3_WASHER_THERMAL},  -- gold + cadmium
+
+
+
+    {name = "Magnetite", path = L42_BATH_MERCURY_WASHER},  -- 70% gold + 11% gold
+    {name = "Gold", path = L42_BATH_MERCURY_WASHER},  -- 70% gold + 10% nickel
+
+    {name = "Meteoritic Iron", path = L43_BATH_MERCURY_THERMAL},  -- platinum + iridium
+
+
+    {name = "Iron", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + macerator = nickel + tin
+    {name = "Tantalite", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + thermal centrifuge
+    {name = "Bauxite", path = L53_BATH_NaSO_THERMAL},  -- rutile + gallium
+    {name = "Sphalerite", path = L53_BATH_NaSO_THERMAL},  -- zinc + gallium
+
+
+    {name = "Thorium", path = L56_BATH_NaSO_SIFTER},  -- thorium, lead, radium 226
+
+
+
+    {name = "Quartzite", path = L6_SIFTER},  -- sifter
+    {name = "Certus Quartz", path = L6_SIFTER},
+    {name = "Nether Quartz", path = L6_SIFTER},
+    {name = "Coal", path = L6_SIFTER},  -- dohuya norm coal
+
+    {name = "Amber", path = L6_SIFTER},
+    {name = "Uraninite", path = L6_SIFTER},
+    {name = "Pitchblende", path = L6_SIFTER},
+    {name = "Diamond", path = L6_SIFTER},
+    {name = "Lapis", path = L6_SIFTER},
+    {name = "Cinnabar", path = L6_SIFTER},
+
+
+
+}
+
+local customPos = {
+
+    {name = "Purified Galena Ore", pos = TARGET_OUTPUT},  -- for indium
+    {name = "Purified Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium
+    {name = "Purified Ilmenite Ore", pos = TARGET_OUTPUT}, -- for washing in sulfuric acid to get more rutile
+
+    {name = "Platinum Metallic Powder Dust", pos = TARGET_OUTPUT}, -- platline
+    {name = "Palladium Metallic Powder Dust", pos = TARGET_OUTPUT}, -- platline
+
+
+    {name = "Redstone", pos = TARGET_OUTPUT},
+    {name = "Glowstone Dust", pos = TARGET_OUTPUT},
+    {name = "Monazite", pos = TARGET_OUTPUT},
+    {name = "Yellow Garnet", pos = TARGET_OUTPUT},
+    {name = "Amber", pos = TARGET_OUTPUT},
+    {name = "Rock Salt", pos = TARGET_OUTPUT},
+    {name = "Salt", pos = TARGET_OUTPUT},
+    {name = "Lignite Coal", pos = TARGET_OUTPUT},
+    {name = "Rare Earth", pos = TARGET_OUTPUT},
+    {name = "Nether Quartz", pos = TARGET_OUTPUT},
+    {name = "Lapis Lazuli", pos = TARGET_OUTPUT},
+    {name = "Emerald", pos = TARGET_OUTPUT},
+    {name = "Pitchblende", pos = TARGET_OUTPUT},
+    {name = "Certus Quartz", pos = TARGET_OUTPUT},
+    {name = "Pure Certus Quartz Crystal", pos = TARGET_OUTPUT},
+    {name = "Charged Certus Quartz Crystal", pos = TARGET_OUTPUT},
+    {name = "Quartzite", pos = TARGET_OUTPUT},
+    {name = "Flint", pos = TARGET_OUTPUT},
+    {name = "Cassiterite Sand", pos = TARGET_OUTPUT},
+    {name = "Basaltic Mineral Sand", pos = TARGET_OUTPUT},
+    {name = "Garnet Sand", pos = TARGET_OUTPUT},
+    {name = "Coal", pos = TARGET_OUTPUT},
+    {name = "Quicksilver", pos = TARGET_OUTPUT},
+    {name = "Electrotine", pos = TARGET_OUTPUT},
+    {name = "Beeswax", pos = TARGET_OUTPUT},
+    {name = "Propolis", pos = TARGET_OUTPUT},
+    {name = "Fullers Earth", pos = TARGET_OUTPUT},
+    {name = "Malachite", pos = TARGET_OUTPUT},
+    {name = "Sugar", pos = TARGET_OUTPUT},
+    {name = "Wood Pulp", pos = TARGET_OUTPUT},
+
+    --{name = "Stone Dust", pos = TARGET_CENTRIFUGE_JOPA},
+    --{name = "Cinnabar Dust", pos = TARGET_CHEM_BATH_MERCURY_JOPA},
+
+    {regex = "Crushed (.*) Crystals", pos = TARGET_ORE_WASHER},
+    {regex = "Purified (.*) Crystals", pos = TARGET_SIFTER},
+    {regex = "(.*) Crystal Powder", pos = TARGET_OUTPUT},
+    {regex = "(.*) Shard", pos = TARGET_OUTPUT},
+
+
+
+    --{name = "Alumina Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
+    --{name = "Magnetite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
+    --{name = "Cassiterite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
+    --{name = "Banded Iron Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
+    {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
+
+    --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
+
+    {name = "Impure Pile of Endstone Dust", pos = TARGET_CENTRIFUGE},
+    --{name = "Endstone Dust", pos = TARGET_CENTRIFUGE},
+
+}
+
+
+
+config.addr_t1 = "6e99789e-9fdb-4e0f-920c-c530b785540c"
+config.addr_t2 = "901289f1-d073-4463-bd5b-fe6f93b044f4"
+config.addr_t3 = "aa2c20ee-d46f-4739-982d-6db710052faa"
+
+config.selectedPath = customPaths
+config.specialTarget = customPos
+config.targetToName = targetToName
+
+return config
