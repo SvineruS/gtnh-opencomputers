@@ -41,8 +41,9 @@ function checkTransposer(tr, trIndex)
     assert(invSize ~= nil, "No inv")
 
 
-    for i = 1, invSize do
+    for j = 1, invSize do
         os.sleep(0)
+        local i = invSize - j + 1  -- reverse order
 
         local item = tr.getStackInSlot(inputSide, i)
         if item == nil then
@@ -108,8 +109,14 @@ function whereToPutItem(item)
     end
 
 
-    --print("UNKNOWN " .. item.label)
-    return TARGET_UNKNOWN, "\27[41m"
+    if contains(item.name, "gregtech", "bartworks") then
+        if contains(item.label, "Cobblestone") then
+            return TARGET_OUTPUT, "\27[41m"
+        end
+        return TARGET_UNKNOWN, "\27[41m"
+    end
+
+    return TARGET_OUTPUT, "\27[41m"
 end
 
 
@@ -125,7 +132,7 @@ function customPath(item, name, path)
         if path.wash == WASH_MERCURY then
             return true, TARGET_CHEM_BATH_MERCURY
         end
-        if path.wash == WASH_BLUE_SHIT then
+        if path.wash == WASH_NaSO4 then
             return true, TARGET_CHEM_BATH_BLUE_SHIT
         end
         -- if path.wash == WASH_NONE - skip wash
@@ -149,11 +156,11 @@ end
 
 
 function defaultPath(item)
-    if item.name == "gregtech:gt.blockores" or labelContains(item, "Raw (.+) Ore") then  -- ore
+    if contains(item.name, "gregtech:gt%.blockores", "bartworks:bw%.blockores") or labelContains(item, "Raw (.+) Ore") then  -- ore
         return TARGET_MACERATOR
     end
 
-    if item.name == "gregtech:gt.metaitem.01" then
+    if contains(item.name, "gregtech:gt%.metaitem", "bartworks:gt%.bwMetaGenerated") then
         if labelContains(item, "Impure Pile of ", "Purified Pile of ", "Impure ") then  -- impure pile
             return TARGET_CENTRIFUGE
         end
@@ -168,7 +175,7 @@ function defaultPath(item)
         return TARGET_OUTPUT
     end
 
-    if item.name == "gregtech:gt.metaitem.02" then
+    if contains(item.name, "gregtech:gt%.metaitem%.02") then
 
         if labelContains(item, "Chipped", "Flawed", "Flawless", "Exquisite") then  -- gem
             return TARGET_OUTPUT
@@ -183,6 +190,12 @@ end
 --- @param tr transposer
 function transfer(tr, fromSide, toSide, fromSlot, count)
     if count == 0 then
+        -- less than multipleOf
+        -- transfer to fromSide again to stack with itself
+        -- to prevent similar items blocking many slots
+        num, err = tr.transferItem(fromSide, fromSide, 64, fromSlot)
+        print("   \27[33mSkipping transfer of less than multipleOf, stacking item with itself\27[37m")
+        assert(err == nil, "Transfer to same side error: ", err)
         return true
     end
     num, err = tr.transferItem(fromSide, toSide, count, fromSlot)
@@ -199,14 +212,20 @@ end
 
 
 function labelContains(item, ...)
+    return contains(item.label, ...)
+end
+
+function contains(payload, ...)
     local args = {...}
     for i = 1, #args do
-        if string.match(item.label, args[i]) then
+        if string.match(payload, args[i]) then
             return true
         end
     end
     return false
 end
+
+
 
 
 function parseTarget(pos)

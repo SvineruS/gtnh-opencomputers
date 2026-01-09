@@ -28,7 +28,7 @@ function main()
                 storedItems = storedItems,
                 finalOutput = finalOutput,
             }
-            --print(print_r(cpu1_info))
+            print(print_r(cpu1_info))
             print(print_r(cpu1))
 
         end

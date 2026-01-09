@@ -1,5 +1,5 @@
 local config = {
-    targetCrop = 'saltroot',
+    targetCrop = 'Blazereed',
     needGrowth = 23,
     needGain = 31,
     needResistance = 10,

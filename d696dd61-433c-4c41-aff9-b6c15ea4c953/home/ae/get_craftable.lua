@@ -1,6 +1,7 @@
 local component = require("component")
 local json = require("json")
 local serialization = require("serialization")
+local text = require("text")
 
 local me = component.me_interface
 
@@ -23,7 +24,7 @@ function process(item)
     end
     if item.fluidDrop ~= nil then
         print(string.format("\t{label=\"%s\", stock=%d, is_fluid=true, name=\"%s\", damage=%d},",
-                item.fluidDrop.label, item.fluidDrop.amount, item.name, item.damage))
+                string.gsub(item.fluidDrop.label, '"', "'"), item.fluidDrop.amount, item.fluidDrop.name, item.fluidDrop.damage or 0))
 
         --return {
         --    label = item.fluidDrop.label,
@@ -32,9 +33,10 @@ function process(item)
         --    damage = item.damage,
         --    stock = item.fluidDrop.amount,
         --}
+        return
     end
     print(string.format("\t{label=\"%s\", stock=%d, name=\"%s\", damage=%d},",
-            item.label, item.maxSize, item.name, item.damage))
+            string.gsub(item.label, '"', "'"), item.maxSize, item.name, item.damage))
     --return {
     --    label = item.label,
     --    name = item.name,

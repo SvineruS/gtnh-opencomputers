@@ -103,6 +103,9 @@ local customPaths = {
     {name = "Silver", path = L1_MACERATOR},
     {name = "Lithium", path = L1_MACERATOR},
     {name = "Sodalite", path = L1_MACERATOR},
+    {name = "Plutonium 239", path = L1_MACERATOR},
+    {name = "Red Zircon", path = L1_MACERATOR},
+    {name = "Fayalite", path = L1_MACERATOR},
     {name = "Rare Earth %(I%)", path = L1_MACERATOR},
     {name = "Rare Earth %(II%)", path = L1_MACERATOR},
 
@@ -123,6 +126,8 @@ local customPaths = {
     {name = "Aluminium", path = L2_WASHER_MACERATOR},  -- bauxite (all)
     {name = "Barite", path = L2_WASHER_MACERATOR},  -- barite (all)
     {name = "Cobaltite", path = L2_WASHER_MACERATOR},  -- cobalt (all)
+    {name = "Cobalt", path = L2_WASHER_MACERATOR},
+    {name = "Ardite", path = L2_WASHER_MACERATOR},
     {name = "Graphite", path = L2_WASHER_MACERATOR},  -- carbon (all)
     {name = "Sulfur", path = L2_WASHER_MACERATOR},  -- sulfur (all)
     {name = "Mica", path = L2_WASHER_MACERATOR}, -- mica (all)
@@ -161,6 +166,9 @@ local customPaths = {
     {name = "Rutile", path = L2_WASHER_MACERATOR},
     {name = "Kyanite", path = L2_WASHER_MACERATOR},
     {name = "Banded Iron", path = L2_WASHER_MACERATOR},
+    {name = "Titanium", path = L2_WASHER_MACERATOR},
+    {name = "Green Fuchsite", path = L2_WASHER_MACERATOR},
+    {name = "Red Fuchsite", path = L2_WASHER_MACERATOR},
 
 
 
@@ -191,12 +199,15 @@ local customPaths = {
     {name = "Thorium", path = L56_BATH_NaSO_SIFTER},  -- thorium, lead, radium 226
 
 
+    {name = "Tin", path = L6_SIFTER}, -- zirconium
+    {name = "Cassiterite", path = L6_SIFTER}, -- zirconium
+
 
     {name = "Quartzite", path = L6_SIFTER},  -- sifter
     {name = "Certus Quartz", path = L6_SIFTER},
     {name = "Nether Quartz", path = L6_SIFTER},
     {name = "Coal", path = L6_SIFTER},  -- dohuya norm coal
-
+    {name = "Nether Star", path = L6_SIFTER},
     {name = "Amber", path = L6_SIFTER},
     {name = "Uraninite", path = L6_SIFTER},
     {name = "Pitchblende", path = L6_SIFTER},
@@ -210,6 +221,7 @@ local customPaths = {
 
 local customPos = {
 
+    {name = "Crushed Monazite Ore", pos = TARGET_OUTPUT},  -- for lanthanide line
     {name = "Purified Galena Ore", pos = TARGET_OUTPUT},  -- for indium
     {name = "Purified Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium
     {name = "Purified Ilmenite Ore", pos = TARGET_OUTPUT}, -- for washing in sulfuric acid to get more rutile
@@ -264,8 +276,11 @@ local customPos = {
     --{name = "Cassiterite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     --{name = "Banded Iron Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
+    {name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
 
     --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
+
+    {name = "Uraninite Dust", pos = TARGET_CENTRIFUGE, multipleOf=3},  -- uranium 238
 
     {name = "Impure Pile of Endstone Dust", pos = TARGET_CENTRIFUGE},
     --{name = "Endstone Dust", pos = TARGET_CENTRIFUGE},
