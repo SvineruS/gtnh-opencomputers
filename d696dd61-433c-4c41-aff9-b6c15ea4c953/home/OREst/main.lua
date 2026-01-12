@@ -92,14 +92,6 @@ function whereToPutItem(item)
         end
     end
 
-
-    local defaultPath = defaultPath(item)
-    if defaultPath ~= nil then
-        --print("Default path")
-        return defaultPath, ""
-    end
-
-
     for _, i in ipairs(config.selectedPath) do
         local ok, path = customPath(item, i.name, i.path)
         if ok then
@@ -108,6 +100,11 @@ function whereToPutItem(item)
         end
     end
 
+    local defaultPath = defaultPath(item)
+    if defaultPath ~= nil then
+        --print("Default path")
+        return defaultPath, ""
+    end
 
     if contains(item.name, "gregtech", "bartworks") then
         if contains(item.label, "Cobblestone") then

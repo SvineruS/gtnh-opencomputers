@@ -1,12 +1,11 @@
 local config = {
-    targetCrop = 'Blazereed',
-    needGrowth = 23,
+    targetCrop = 'Quantaria',
+    needGrowth = 22,
     needGain = 31,
     needResistance = 10,
 
-    width = 10,
-    height = 10,
-    farmSize = 10*10-1,
+    width = 4,
+    height = 4,
 
     cropsSlotsBegin = 1,
     cropsSlotsPremiumEnd = 4,
@@ -15,5 +14,6 @@ local config = {
     stickSlotsEnd = 16,
 
 }
+config.farmSize = config.width * config.height - 1
 
 return config

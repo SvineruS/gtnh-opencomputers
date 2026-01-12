@@ -12,7 +12,9 @@ local me = component.me_interface
 
 local CPUS_TO_USE = {
     cpu1 = { },
-    --cpu2 = { }
+    cpu2 = { },
+    cpu3 = { },
+    cpu6 = { },
 }  -- names of CPUs to use for crafting
 
 local failedToCraft = {}
@@ -74,16 +76,24 @@ function checkItem(item, cpuName)
     print(string.format("Crafting %s | %d -> %d", item.label, available, item.stock))
 
     local craftable = getCraftable(item.name, item.damage)
-    local tracking = craftable.request(item.stock - available, false, cpuName)
 
-    local hasFailed, reason = tracking.hasFailed()
-    local isCanceled = tracking.isCanceled()
+    local craftAmount = item.stock - available
+    while craftAmount > 0 do
+        local tracking = craftable.request(craftAmount, false, cpuName)
 
-    if hasFailed and isCanceled then
-        print("Crafting failed: " .. reason)
-        return "fail"
+        local hasFailed, reason = tracking.hasFailed()
+        local isCanceled = tracking.isCanceled()
+
+        if not (hasFailed and isCanceled) then
+            return "crafting"
+        end
+
+        craftAmount = math.floor(craftAmount / 2)
+        print("Crafting failed: " .. reason .. ", retrying with amount " .. craftAmount)
     end
-    return "crafting"
+
+    return "fail"
+
 end
 
 local currentIndex = 0

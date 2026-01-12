@@ -169,6 +169,18 @@ local customPaths = {
     {name = "Titanium", path = L2_WASHER_MACERATOR},
     {name = "Green Fuchsite", path = L2_WASHER_MACERATOR},
     {name = "Red Fuchsite", path = L2_WASHER_MACERATOR},
+    {name = "Apatite", path = L2_WASHER_MACERATOR},
+    {name = "Gold", path = L2_WASHER_MACERATOR},
+    {name = "Magnetite", path = L2_WASHER_MACERATOR},  -- 70% gold + 11% gold
+    {name = "Ledox", path = L2_WASHER_MACERATOR},
+    {name = "Opal", path = L2_WASHER_MACERATOR},
+    {name = "Rubracium", path = L2_WASHER_MACERATOR},
+    {name = "Orichalcum", path = L2_WASHER_MACERATOR},
+    {name = "Callisto Ice", path = L2_WASHER_MACERATOR},
+    {name = "Blue Topaz", path = L2_WASHER_MACERATOR},
+    {name = "Alduorite", path = L2_WASHER_MACERATOR},
+
+
 
 
 
@@ -181,13 +193,11 @@ local customPaths = {
     {name = "Palladium", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Platinum", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Sheldonite", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Cinnabar", path = L3_WASHER_THERMAL},  -- gold + cadmium
 
 
 
-    {name = "Magnetite", path = L42_BATH_MERCURY_WASHER},  -- 70% gold + 11% gold
-    {name = "Gold", path = L42_BATH_MERCURY_WASHER},  -- 70% gold + 10% nickel
-
-    {name = "Meteoritic Iron", path = L43_BATH_MERCURY_THERMAL},  -- platinum + iridium
+    {name = "Meteoric Iron", path = L43_BATH_MERCURY_THERMAL},  -- platinum + iridium
 
 
     {name = "Iron", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + macerator = nickel + tin
@@ -213,7 +223,7 @@ local customPaths = {
     {name = "Pitchblende", path = L6_SIFTER},
     {name = "Diamond", path = L6_SIFTER},
     {name = "Lapis", path = L6_SIFTER},
-    {name = "Cinnabar", path = L6_SIFTER},
+    --{name = "Cinnabar", path = L6_SIFTER},
 
 
 
@@ -226,9 +236,15 @@ local customPos = {
     {name = "Purified Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium
     {name = "Purified Ilmenite Ore", pos = TARGET_OUTPUT}, -- for washing in sulfuric acid to get more rutile
 
+    {name = "Purified Chalcopyrite Ore", pos = TARGET_OUTPUT}, -- platline
+    {name = "Purified Tetrahedrite Ore", pos = TARGET_OUTPUT}, -- platline
+    {name = "Purified Sheldonite Ore", pos = TARGET_OUTPUT}, -- platline
     {name = "Platinum Metallic Powder Dust", pos = TARGET_OUTPUT}, -- platline
     {name = "Palladium Metallic Powder Dust", pos = TARGET_OUTPUT}, -- platline
 
+
+    {name = "Raw Oilsands Ore", pos = TARGET_OUTPUT},  -- centrifuge for oil
+    {name = "Oilsands Ore", pos = TARGET_OUTPUT},
 
     {name = "Redstone", pos = TARGET_OUTPUT},
     {name = "Glowstone Dust", pos = TARGET_OUTPUT},
@@ -275,12 +291,14 @@ local customPos = {
     --{name = "Magnetite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     --{name = "Cassiterite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     --{name = "Banded Iron Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
+    {name = "Sodalite Dust", pos = TARGET_ELECTROLYZER, multipleOf=11},   -- chlorine, alum, sodium, silicon
     {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
     {name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
 
     --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
 
     {name = "Uraninite Dust", pos = TARGET_CENTRIFUGE, multipleOf=3},  -- uranium 238
+    {name = "Sheldonite Dust", pos = TARGET_CENTRIFUGE, multipleOf=6},   -- platinum metallic powder dust
 
     {name = "Impure Pile of Endstone Dust", pos = TARGET_CENTRIFUGE},
     --{name = "Endstone Dust", pos = TARGET_CENTRIFUGE},
