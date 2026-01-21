@@ -191,7 +191,7 @@ function transfer(tr, fromSide, toSide, fromSlot, count)
         -- transfer to fromSide again to stack with itself
         -- to prevent similar items blocking many slots
         num, err = tr.transferItem(fromSide, fromSide, 64, fromSlot)
-        print("   \27[33mSkipping transfer of less than multipleOf, stacking item with itself\27[37m")
+        --print("   \27[33mSkipping transfer of less than multipleOf, stacking item with itself\27[37m")
         assert(err == nil, "Transfer to same side error: ", err)
         return true
     end

@@ -1,5 +1,5 @@
 local config = {
-    targetCrop = 'Quantaria',
+    targetCrop = 'Space Plant',
     needGrowth = 22,
     needGain = 31,
     needResistance = 10,

@@ -108,6 +108,7 @@ local customPaths = {
     {name = "Fayalite", path = L1_MACERATOR},
     {name = "Rare Earth %(I%)", path = L1_MACERATOR},
     {name = "Rare Earth %(II%)", path = L1_MACERATOR},
+    {name = "Mytryl", path = L1_MACERATOR},
 
 
     {name = "Diatomite", path = L2_WASHER_MACERATOR}, -- banded iron, sapphire, sapphire
@@ -179,6 +180,12 @@ local customPaths = {
     {name = "Callisto Ice", path = L2_WASHER_MACERATOR},
     {name = "Blue Topaz", path = L2_WASHER_MACERATOR},
     {name = "Alduorite", path = L2_WASHER_MACERATOR},
+    {name = "Certus Quartz", path = L2_WASHER_MACERATOR},
+    {name = "Ceruclase", path = L2_WASHER_MACERATOR},
+    {name = "Vulcanite", path = L2_WASHER_MACERATOR},
+    {name = "Mithril", path = L2_WASHER_MACERATOR},
+    {name = "Quantium", path = L2_WASHER_MACERATOR},
+    {name = "Amethyst", path = L2_WASHER_MACERATOR},
 
 
 
@@ -193,7 +200,8 @@ local customPaths = {
     {name = "Palladium", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Platinum", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Sheldonite", path = L3_WASHER_THERMAL},  -- gold + cadmium
-    {name = "Cinnabar", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Cinnabar", path = L3_WASHER_THERMAL},  -- glowstone
+    {name = "Iridium", path = L3_WASHER_THERMAL},
 
 
 
@@ -214,7 +222,6 @@ local customPaths = {
 
 
     {name = "Quartzite", path = L6_SIFTER},  -- sifter
-    {name = "Certus Quartz", path = L6_SIFTER},
     {name = "Nether Quartz", path = L6_SIFTER},
     {name = "Coal", path = L6_SIFTER},  -- dohuya norm coal
     {name = "Nether Star", path = L6_SIFTER},
@@ -223,6 +230,7 @@ local customPaths = {
     {name = "Pitchblende", path = L6_SIFTER},
     {name = "Diamond", path = L6_SIFTER},
     {name = "Lapis", path = L6_SIFTER},
+    {name = "Jasper", path = L6_SIFTER},
     --{name = "Cinnabar", path = L6_SIFTER},
 
 

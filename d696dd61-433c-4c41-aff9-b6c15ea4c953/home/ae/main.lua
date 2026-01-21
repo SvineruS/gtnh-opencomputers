@@ -14,6 +14,8 @@ local CPUS_TO_USE = {
     cpu1 = { },
     cpu2 = { },
     cpu3 = { },
+    cpu4 = { },
+    cpu5 = { },
     cpu6 = { },
 }  -- names of CPUs to use for crafting
 
@@ -53,8 +55,15 @@ function main()
                     end
                 end
 
+                local final = cpu.finalOutput
+                if final == nil and #cpu.pendingItems > 0 then
+                    final = cpu.pendingItems[#cpu.pendingItems]
+                end
+                if final == nil and #cpu.activeItems > 0 then
+                    final = cpu.activeItems[1]
+                end
                 --cpuConfig.icon.updateFinal(cpu.finalOutput or cpu.pendingItems[#cpu.pendingItems])
-                cpuConfig.icon.updateFinal(cpu.finalOutput)
+                cpuConfig.icon.updateFinal(final)
                 cpuConfig.icon.updateActive(cpu.activeItems)
 
             end
@@ -75,7 +84,7 @@ function checkItem(item, cpuName)
 
     print(string.format("Crafting %s | %d -> %d", item.label, available, item.stock))
 
-    local craftable = getCraftable(item.name, item.damage)
+    local craftable = getCraftable(item)
 
     local craftAmount = item.stock - available
     while craftAmount > 0 do
@@ -89,7 +98,7 @@ function checkItem(item, cpuName)
         end
 
         craftAmount = math.floor(craftAmount / 2)
-        print("Crafting failed: " .. reason .. ", retrying with amount " .. craftAmount)
+        print("\27[31mFailed: " .. reason .. ", retrying x" .. craftAmount .. "\27[37m")
     end
 
     return "fail"
@@ -131,12 +140,38 @@ function getItemAmount(name, damage)
     return item.size
 end
 
-function getCraftable(name, damage)
+
+function getCraftable(item)
+    if item.is_fluid then
+        return getCraftableFluid(item.name)
+    else
+        return getCraftableItem(item.name, item.damage or 0)
+    end
+end
+
+
+function getCraftableItem(name, damage)
     local craftables = me.getCraftables({ name = name, damage = damage })
     assert(#craftables == 1, "Expected exactly one craftable for " .. name .. ":" .. damage .. ", got " .. #craftables)
 
     return craftables[1]
 end
+
+function getCraftableFluid(name)
+    local craftablesAll = me.getCraftables({ name = "ae2fc:fluid_drop"})
+    local craftables = {}
+    for i, craftable in ipairs(craftablesAll) do
+        local item = craftable.getItemStack()
+        if item.fluidDrop and item.fluidDrop.name == name then
+            table.insert(craftables, craftable)
+        end
+    end
+    assert(#craftables == 1, "Expected exactly one craftable for " .. name .. ":" .. ", got " .. #craftables)
+
+    return craftables[1]
+end
+
+
 
 --- @param cpu AECpuMetadata
 function getCpuData(cpu)
