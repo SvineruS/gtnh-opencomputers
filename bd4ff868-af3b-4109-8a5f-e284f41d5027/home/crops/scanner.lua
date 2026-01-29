@@ -10,7 +10,11 @@ local function calcCropScore(gr, ga, re)
     local dGa = ga - config.needGain
     local dRe = re - config.needResistance
 
-    return 5000 - (dGr * dGr + dGa * dGa + dRe * dRe)
+    local score = 5000 - (dGr * dGr + dGa * dGa + dRe * dRe)
+    if dGr > 22 then
+        score = score - (dGr - 22) * 100
+    end
+    return score
 end
 
 local function constructCrop(name, gr, ga, re, isGrown)

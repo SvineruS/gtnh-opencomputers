@@ -4,6 +4,8 @@ local serialization = require("serialization")
 
 package.loaded["ae/stock"] = nil
 local STOCKING = require("ae/stock")
+package.loaded["ae/stock-highprior"] = nil
+local STOCKING_HP = require("ae/stock-highprior")
 
 package.loaded["ae/aeHud"] = nil
 local aeHud = require("ae/aeHud")
@@ -16,7 +18,7 @@ local CPUS_TO_USE = {
     cpu3 = { },
     cpu4 = { },
     cpu5 = { },
-    cpu6 = { },
+    --cpu6 = { },
 }  -- names of CPUs to use for crafting
 
 local failedToCraft = {}
@@ -43,7 +45,20 @@ function main()
 
                 --print(serialization.serialize(cpu))
                 if not cpu.isBusy then
-                    while true do
+
+                    for _ = 1, #STOCKING_HP do
+                        local item = getNextHPStockingItem()
+                        local crafting = checkItem(item, cpu.name)
+                        if crafting == "crafting" then
+                            break
+                        elseif crafting == "fail" then
+                            updateFailedToCraft(item)
+                        end
+                        os.sleep(0)
+                    end
+
+
+                    for _ = 1, #STOCKING do
                         local item = getNextStockingItem()
                         local crafting = checkItem(item, cpu.name)
                         if crafting == "crafting" then
@@ -75,18 +90,37 @@ function main()
 end
 
 function checkItem(item, cpuName)
-    local available = getItemAmount(item.name, item.damage)
-    if available >= item.stock then
-        print(string.format("Skipping %s | %d > %d", item.label, available, item.stock))
-
+    if checkItemIsAlreadyCrafting(item) then
+        print(string.format("Skipping %s | already crafting", item.label))
         return "no"
     end
 
-    print(string.format("Crafting %s | %d -> %d", item.label, available, item.stock))
+    local craftAmount = 0;
+
+    if item.stock < 0 then
+        -- always try craft, start from |stock| amount
+        craftAmount = -item.stock
+        print(string.format("Crafting %s | +%d", item.label, item.stock))
+    else
+        -- craft up to stock amount
+        local available = getItemAmount(item.name, item.damage)
+        if available >= item.stock then
+            print(string.format("Skipping %s | %d > %d", item.label, available, item.stock))
+            return "no"
+        end
+        print(string.format("Crafting %s | %d -> %d", item.label, available, item.stock))
+
+        craftAmount = item.stock - available
+
+    end
+
 
     local craftable = getCraftable(item)
+    if craftable == nil then
+        print("\27[31mNo craftable for " .. item.label .. "\27[37m")
+        return "fail"
+    end
 
-    local craftAmount = item.stock - available
     while craftAmount > 0 do
         local tracking = craftable.request(craftAmount, false, cpuName)
 
@@ -103,6 +137,20 @@ function checkItem(item, cpuName)
 
     return "fail"
 
+end
+
+local currentHPIndex = 0
+function getNextHPStockingItem()
+    currentHPIndex = currentHPIndex + 1
+    if currentHPIndex > #STOCKING_HP then
+        currentHPIndex = 1
+
+        os.sleep(5)
+        -- reload stocking list
+        package.loaded["ae/stock-highprior"] = nil
+        STOCKING_HP = require("ae/stock-highprior")
+    end
+    return STOCKING_HP[currentHPIndex]
 end
 
 local currentIndex = 0
@@ -152,6 +200,9 @@ end
 
 function getCraftableItem(name, damage)
     local craftables = me.getCraftables({ name = name, damage = damage })
+    if #craftables == 0 then
+        return nil
+    end
     assert(#craftables == 1, "Expected exactly one craftable for " .. name .. ":" .. damage .. ", got " .. #craftables)
 
     return craftables[1]
@@ -171,6 +222,19 @@ function getCraftableFluid(name)
     return craftables[1]
 end
 
+function checkItemIsAlreadyCrafting(item)
+    local cpus = me.getCpus()
+    for _, meCpu in ipairs(cpus) do
+        local cpuConfig = CPUS_TO_USE[meCpu.name]
+        if cpuConfig and meCpu.busy then
+            local finalOutput = meCpu.cpu.finalOutput()
+            if finalOutput ~= nil and finalOutput.name == item.name and finalOutput.damage == (item.damage or 0) then
+                return true
+            end
+        end
+    end
+    return false
+end
 
 
 --- @param cpu AECpuMetadata

@@ -109,6 +109,7 @@ local customPaths = {
     {name = "Rare Earth %(I%)", path = L1_MACERATOR},
     {name = "Rare Earth %(II%)", path = L1_MACERATOR},
     {name = "Mytryl", path = L1_MACERATOR},
+    {name = "Thorium", path = L1_MACERATOR},  -- thorium, lead, radium 226
 
 
     {name = "Diatomite", path = L2_WASHER_MACERATOR}, -- banded iron, sapphire, sapphire
@@ -124,6 +125,7 @@ local customPaths = {
     {name = "Wulfenite", path = L2_WASHER_MACERATOR}, -- wulfenite (all)
     {name = "Beryllium", path = L2_WASHER_MACERATOR}, -- emerald (all)
     {name = "Magnesite", path = L2_WASHER_MACERATOR},  -- magnesium (all)
+    {name = "Magnesium", path = L2_WASHER_MACERATOR},  -- magnesium (all)
     {name = "Aluminium", path = L2_WASHER_MACERATOR},  -- bauxite (all)
     {name = "Barite", path = L2_WASHER_MACERATOR},  -- barite (all)
     {name = "Cobaltite", path = L2_WASHER_MACERATOR},  -- cobalt (all)
@@ -186,6 +188,8 @@ local customPaths = {
     {name = "Mithril", path = L2_WASHER_MACERATOR},
     {name = "Quantium", path = L2_WASHER_MACERATOR},
     {name = "Amethyst", path = L2_WASHER_MACERATOR},
+    {name = "Firestone", path = L2_WASHER_MACERATOR},
+    {name = "Calcite", path = L2_WASHER_MACERATOR},
 
 
 
@@ -214,7 +218,6 @@ local customPaths = {
     {name = "Sphalerite", path = L53_BATH_NaSO_THERMAL},  -- zinc + gallium
 
 
-    {name = "Thorium", path = L56_BATH_NaSO_SIFTER},  -- thorium, lead, radium 226
 
 
     {name = "Tin", path = L6_SIFTER}, -- zirconium
@@ -231,6 +234,7 @@ local customPaths = {
     {name = "Diamond", path = L6_SIFTER},
     {name = "Lapis", path = L6_SIFTER},
     {name = "Jasper", path = L6_SIFTER},
+    {name = "Olivine", path = L6_SIFTER},
     --{name = "Cinnabar", path = L6_SIFTER},
 
 
@@ -302,6 +306,7 @@ local customPos = {
     {name = "Sodalite Dust", pos = TARGET_ELECTROLYZER, multipleOf=11},   -- chlorine, alum, sodium, silicon
     {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
     {name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
+    {name = "Bauxite Dust", pos = TARGET_ELECTROLYZER, multipleOf=39},
 
     --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
 
