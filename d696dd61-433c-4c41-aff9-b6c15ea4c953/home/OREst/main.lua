@@ -21,7 +21,7 @@ function main()
         checkTransposer(T2, 2)
         checkTransposer(T3, 3)
 
-        os.sleep(1)
+        os.sleep(0)
 
         -- reload config
         package.loaded["OREst/config"] = nil

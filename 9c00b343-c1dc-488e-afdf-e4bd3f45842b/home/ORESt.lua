@@ -104,10 +104,8 @@ end
 
 -- only crushed / purified ores
 local customPaths = {
-    {name = "Monazite", path = L1_MACERATOR},  -- thorium, neodymium, rare earth
     {name = "Tetrahedrite", path = L1_MACERATOR},  -- zinc, antimony, antimony
     {name = "Grossular", path = L1_MACERATOR},  -- yellow garnet, calcium, calcium
-    {name = "Bastnasite", path = L1_MACERATOR},  -- neodymium, rare earth, rare earth
     {name = "Lepidolite", path = L1_MACERATOR},  -- lithium, caesium, caesium
     {name = "Pentlandite", path = L1_MACERATOR}, -- iron, sulfur, cobalt
     {name = "Neodymium", path = L1_MACERATOR}, -- monazite, rare earth, rare earth
@@ -174,6 +172,8 @@ local customPaths = {
     {name = "Naquadah", path = L2_WASHER_MACERATOR},
     {name = "Granitic Mineral Sand", path = L2_WASHER_MACERATOR},
     {name = "Rutile", path = L2_WASHER_MACERATOR},
+    {name = "Bastnasite", path = L2_WASHER_MACERATOR},  -- neodymium, rare earth, rare earth
+    {name = "Monazite", path = L2_WASHER_MACERATOR},  -- thorium, neodymium, rare earth
 
 
 

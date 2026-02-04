@@ -133,6 +133,7 @@ function checkItem(item, cpuName)
 
         craftAmount = math.floor(craftAmount / 2)
         print("\27[31mFailed: " .. reason .. ", retrying x" .. craftAmount .. "\27[37m")
+        os.sleep(0)
     end
 
     return "fail"

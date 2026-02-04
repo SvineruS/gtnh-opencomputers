@@ -93,9 +93,7 @@ local customPaths = {
     {name = "Tetrahedrite", path = L1_MACERATOR},  -- zinc, antimony, antimony
     {name = "Grossular", path = L1_MACERATOR},  -- yellow garnet, calcium, calcium
     {name = "Bastnasite", path = L1_MACERATOR},  -- neodymium, rare earth, rare earth
-    {name = "Lepidolite", path = L1_MACERATOR},  -- lithium, caesium, caesium
     {name = "Pentlandite", path = L1_MACERATOR}, -- iron, sulfur, cobalt
-    {name = "Neodymium", path = L1_MACERATOR}, -- monazite, rare earth, rare earth
     {name = "Emerald", path = L1_MACERATOR}, -- beryllium, alumina, alumina
     {name = "Lead", path = L1_MACERATOR},
     {name = "Ruby", path = L1_MACERATOR},
@@ -108,8 +106,13 @@ local customPaths = {
     {name = "Fayalite", path = L1_MACERATOR},
     {name = "Rare Earth %(I%)", path = L1_MACERATOR},
     {name = "Rare Earth %(II%)", path = L1_MACERATOR},
+    {name = "Rare Earth %(III%)", path = L1_MACERATOR},
     {name = "Mytryl", path = L1_MACERATOR},
     {name = "Thorium", path = L1_MACERATOR},  -- thorium, lead, radium 226
+    {name = "Uraninite", path = L1_MACERATOR},
+    {name = "Deep Iron", path = L1_MACERATOR},
+    {name = "Iron", path = L1_MACERATOR},  -- blue shit bath + macerator = nickel + tin
+
 
 
     {name = "Diatomite", path = L2_WASHER_MACERATOR}, -- banded iron, sapphire, sapphire
@@ -190,6 +193,20 @@ local customPaths = {
     {name = "Amethyst", path = L2_WASHER_MACERATOR},
     {name = "Firestone", path = L2_WASHER_MACERATOR},
     {name = "Calcite", path = L2_WASHER_MACERATOR},
+    {name = "Enriched Naquadah", path = L2_WASHER_MACERATOR},
+    {name = "Tricalcium Phosphate", path = L2_WASHER_MACERATOR},
+    {name = "Lepidolite", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Soapstone", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Adamantium", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Gypsum", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Garnierite", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Draconium", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Shadow Iron", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Shadow Metal", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Alunite", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Neodymium", path = L2_WASHER_MACERATOR}, -- monazite, rare earth, rare earth
+    {name = "Bauxite", path = L2_WASHER_MACERATOR},
+    {name = "Scheelite", path = L2_WASHER_MACERATOR},
 
 
 
@@ -197,24 +214,23 @@ local customPaths = {
 
 
     {name = "Redstone", path = L3_WASHER_THERMAL},  -- cinnabar, rare earth, glowstone
-    {name = "Scheelite", path = L3_WASHER_THERMAL},  -- redstone, sulfur, glowstone
     {name = "Chalcopyrite", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Pyrolusite", path = L3_WASHER_THERMAL},  -- gold + cadmium
+    {name = "Pyrochlore", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Fullers Earth", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Palladium", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Platinum", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Sheldonite", path = L3_WASHER_THERMAL},  -- gold + cadmium
     {name = "Cinnabar", path = L3_WASHER_THERMAL},  -- glowstone
     {name = "Iridium", path = L3_WASHER_THERMAL},
+    {name = "Pollucite", path = L3_WASHER_THERMAL},  -- Rubidium
+    {name = "Meteoric Iron", path = L3_WASHER_THERMAL},
 
 
 
-    {name = "Meteoric Iron", path = L43_BATH_MERCURY_THERMAL},  -- platinum + iridium
 
 
-    {name = "Iron", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + macerator = nickel + tin
     {name = "Tantalite", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + thermal centrifuge
-    {name = "Bauxite", path = L53_BATH_NaSO_THERMAL},  -- rutile + gallium
     {name = "Sphalerite", path = L53_BATH_NaSO_THERMAL},  -- zinc + gallium
 
 
@@ -229,12 +245,12 @@ local customPaths = {
     {name = "Coal", path = L6_SIFTER},  -- dohuya norm coal
     {name = "Nether Star", path = L6_SIFTER},
     {name = "Amber", path = L6_SIFTER},
-    {name = "Uraninite", path = L6_SIFTER},
     {name = "Pitchblende", path = L6_SIFTER},
     {name = "Diamond", path = L6_SIFTER},
     {name = "Lapis", path = L6_SIFTER},
     {name = "Jasper", path = L6_SIFTER},
     {name = "Olivine", path = L6_SIFTER},
+    {name = "Thorianite", path = L6_SIFTER},
     --{name = "Cinnabar", path = L6_SIFTER},
 
 
@@ -242,6 +258,8 @@ local customPaths = {
 }
 
 local customPos = {
+
+    {name = "Crushed Lead Ore", pos = TARGET_OUTPUT},  -- for tellurium
 
     {name = "Crushed Monazite Ore", pos = TARGET_OUTPUT},  -- for lanthanide line
     {name = "Purified Galena Ore", pos = TARGET_OUTPUT},  -- for indium
@@ -278,6 +296,7 @@ local customPos = {
     {name = "Flint", pos = TARGET_OUTPUT},
     {name = "Cassiterite Sand", pos = TARGET_OUTPUT},
     {name = "Basaltic Mineral Sand", pos = TARGET_OUTPUT},
+    {name = "Granitic Mineral Sand", pos = TARGET_OUTPUT},
     {name = "Garnet Sand", pos = TARGET_OUTPUT},
     {name = "Coal", pos = TARGET_OUTPUT},
     {name = "Quicksilver", pos = TARGET_OUTPUT},
@@ -307,10 +326,12 @@ local customPos = {
     {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
     {name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
     {name = "Bauxite Dust", pos = TARGET_ELECTROLYZER, multipleOf=39},
+    {name = "Chromite Dust", pos = TARGET_ELECTROLYZER, multipleOf=7},
+    {name = "Bastnasite Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},
 
     --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
 
-    {name = "Uraninite Dust", pos = TARGET_CENTRIFUGE, multipleOf=3},  -- uranium 238
+    --{name = "Uraninite Dust", pos = TARGET_CENTRIFUGE, multipleOf=3},  -- uranium 238
     {name = "Sheldonite Dust", pos = TARGET_CENTRIFUGE, multipleOf=6},   -- platinum metallic powder dust
 
     {name = "Impure Pile of Endstone Dust", pos = TARGET_CENTRIFUGE},
