@@ -1,76 +1,101 @@
-local sides = require("sides")
 local component = require("component")
+local serialization = require("serialization")
 local text = require("text")
 
-package.loaded["OREst/config"] = nil
-local config = require("OREst/config")
+package.loaded["OREst3/config"] = nil
+local config = require("OREst3/config")
 
 
 
+local me = component.me_interface
+local database = component.database
 
 
---- @type transposer
-local T1 = component.proxy(config.addr_t1, "transposer")
-local T2 = component.proxy(config.addr_t2, "transposer")
-local T3 = component.proxy(config.addr_t3, "transposer")
+--- @type me_exportbus
+local bus_1 = component.proxy(component.get("7de1", "me_exportbus"), "me_exportbus")
+local bus_2 = component.proxy(component.get("2418", "me_exportbus"), "me_exportbus")
+local bus_3 = component.proxy(component.get("3720", "me_exportbus"), "me_exportbus")
+-- bot, mid, top
 
-function main()
 
-    while true do
-        checkTransposer(T1, 1)
-        checkTransposer(T2, 2)
-        checkTransposer(T3, 3)
+print(serialization.serialize(component.list("me_exportbus")))
 
-        os.sleep(0)
 
-        -- reload config
-        package.loaded["OREst/config"] = nil
-        config = require("OREst/config")
+
+function setExport(dst, item, slot)
+    local bus, bus_side = parseTarget(dst)
+
+    database.set(1, item.name, item.damage)
+    bus.setExportConfiguration(bus_side, slot or 1, database.address, 1)
+end
+
+function parseTarget(pos)
+    local x = math.floor(pos / 10)
+    local y = pos % 10
+    if x == 1 then
+        return bus_1, y
+    elseif x == 2 then
+        return bus_2, y
+    elseif x == 3 then
+        return bus_3, y
     end
 end
 
 
 
----@param tr transposer
-function checkTransposer(tr, trIndex)
-    --print("   Scanning T".. trIndex)
 
 
-    local inputSide = sides.east -- input always EAST
-    local invSize = tr.getInventorySize(inputSide)
-    assert(invSize ~= nil, "No inv")
 
 
-    for j = 1, invSize do
+
+
+
+
+
+function main()
+    while true do
+        checkME()
+        print("---")
+        os.sleep(1)
+
+        package.loaded["OREst3/config"] = nil
+        config = require("OREst3/config")
+    end
+end
+
+
+local MAX_SLOTS = {
+    [TARGET_OUTPUT] = 5
+    -- default 1
+}
+
+
+
+function checkME()
+    local items = me.getItemsInNetwork()
+    local slots = {}
+    for i = #items, 1, -1 do
+        local item = items[i]
         os.sleep(0)
-        local i = invSize - j + 1  -- reverse order
 
-        local item = tr.getStackInSlot(inputSide, i)
-        if item == nil then
-            -- empty slot
+        local itemTarget, reason = whereToPutItem(item)
+        if itemTarget == TARGET_UNKNOWN then
             goto continue_loop
         end
 
-        local itemTarget, reason, count = whereToPutItem(item)
-        count = count or item.size
-
-        local needTrIndex, side = parseTarget(itemTarget)
-        if needTrIndex == trIndex then
-            transfer(tr, inputSide, side, i, count)
-            print(reason .. text.padRight(item.label .. "\27[40m", 35) .."-> ".. config.targetToName[itemTarget] .. " x" .. count)
-        elseif needTrIndex > trIndex then
-            -- send to next transposer
-            transfer(tr, inputSide, sides.west, i, count)
-        else -- needTrIndex < trIndex
-            assert(false, "Item ".. item.label .." should be processed earlier, skipping")
+        local takedSlots = slots[itemTarget] or 0
+        local maxSlots = MAX_SLOTS[itemTarget] or 1
+        if takedSlots < maxSlots then
+            setExport(itemTarget, item, takedSlots + 1)
+            print(reason .. text.padRight(item.label .. "\27[40m", 35) .."-> ".. config.targetToName[itemTarget])
+            slots[itemTarget] = takedSlots + 1
         end
 
         ::continue_loop::
     end
 
-    return didSomething
-
 end
+
 
 
 
@@ -83,12 +108,7 @@ function whereToPutItem(item)
 
     for _, i in ipairs(config.specialTarget) do
         if item.label == i.name or labelContains(item, i.regex) then
-            local count = nil
-            if i.multipleOf ~= nil then
-                count = math.floor(item.size / i.multipleOf) * i.multipleOf
-            end
-
-            return i.pos, "\27[42m", count
+            return i.pos, "\27[42m"
         end
     end
 
@@ -184,29 +204,6 @@ end
 
 
 
---- @param tr transposer
-function transfer(tr, fromSide, toSide, fromSlot, count)
-    if count == 0 then
-        -- less than multipleOf
-        -- transfer to fromSide again to stack with itself
-        -- to prevent similar items blocking many slots
-        num, err = tr.transferItem(fromSide, fromSide, 64, fromSlot)
-        --print("   \27[33mSkipping transfer of less than multipleOf, stacking item with itself\27[37m")
-        assert(err == nil, "Transfer to same side error: ", err)
-        return true
-    end
-    num, err = tr.transferItem(fromSide, toSide, count, fromSlot)
-    if err ~= nil then
-        assert(false, "Transfer error: ", err)
-    end
-    if num == 0 then
-        print("\27[31mCHEST IS FULL\27[37m")
-        return false
-    end
-    return true
-end
-
-
 
 function labelContains(item, ...)
     return contains(item.label, ...)
@@ -222,14 +219,6 @@ function contains(payload, ...)
     return false
 end
 
-
-
-
-function parseTarget(pos)
-    local x = math.floor(pos / 10)
-    local y = pos % 10
-    return x, y
-end
 
 
 return {main = main}

@@ -46,16 +46,16 @@ function main()
                 --print(serialization.serialize(cpu))
                 if not cpu.isBusy then
 
-                    for _ = 1, #STOCKING_HP do
-                        local item = getNextHPStockingItem()
-                        local crafting = checkItem(item, cpu.name)
-                        if crafting == "crafting" then
-                            break
-                        elseif crafting == "fail" then
-                            updateFailedToCraft(item)
-                        end
-                        os.sleep(0)
-                    end
+                    --for _ = 1, #STOCKING_HP do
+                    --    local item = getNextHPStockingItem()
+                    --    local crafting = checkItem(item, cpu.name)
+                    --    if crafting == "crafting" then
+                    --        break
+                    --    elseif crafting == "fail" then
+                    --        updateFailedToCraft(item)
+                    --    end
+                    --    os.sleep(0)
+                    --end
 
 
                     for _ = 1, #STOCKING do

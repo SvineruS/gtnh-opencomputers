@@ -4,14 +4,8 @@ local sides = require("sides")
 local serialization = require("serialization")
 
 
-local slot = 1
-local item = component.inventory_controller.getStackInSlot(sides.bottom, 1)
+local inv = component.inventory_controller
+print(inv.getInventorySize(sides.front))
 
-if ~item then
-    print(serialization.serialize(item))
-	print("Item name: ", item.name)
-	print("Item count: ", item.size)
-	print("Item damage: ", item.damage)
-else
-	print("Slot " .. slot .. " is empty")
-end
+print(serialization.serialize(inv.getStackInSlot(sides.front, 1)))
+print(serialization.serialize(inv.getStackInSlot(sides.front, 2)))

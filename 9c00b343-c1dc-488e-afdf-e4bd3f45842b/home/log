@@ -1,1 +1,12 @@
-process library exception handler crashed: error in error handling
+database                46c6b0af-69f9-4429-af58-8c3d31c694ea
+eeprom                  6cd2c54a-5368-46d5-8e53-ad3c1cd86548
+gpu                     223b841d-89d3-4de8-89b1-090aa46facbc
+filesystem              9c00b343-c1dc-488e-afdf-e4bd3f45842b
+data                    8db6eb9e-7ddc-452e-91ad-b5c1fc5a7fa2
+keyboard                8ca54a42-e46b-4c74-84a5-d088f052ae9c
+inventory_controller    17d03d7e-9756-40b0-82ec-a4701e1e9ea2
+filesystem              6e660d55-818a-4b55-817a-92019da68706
+computer                06278810-397a-4b9d-b83a-0f9f1d375b68
+robot                   f9f9b826-3824-4548-b3b3-d8f9325438fe
+filesystem              a4274d4c-1fe3-427a-88b6-9907a273256f
+screen                  28a21234-7891-4a56-83af-d084cd7f1a99

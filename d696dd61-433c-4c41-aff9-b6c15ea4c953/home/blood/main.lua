@@ -2,10 +2,11 @@ local component = require("component")
 local sides = require("sides")
 local serialization = require("serialization")
 
-local tr = component.proxy(component.get("a46d7b38", "transposer"), "transposer")
+local tr = component.transposer;
 
 
-
+local SIDE_1 = sides.south
+local SIDE_2 = sides.up
 
 function main()
     while true do
@@ -17,7 +18,7 @@ end
 
 function checkLp()
 
-    local item = tr.getStackInSlot(sides.east, 1)
+    local item = tr.getStackInSlot(SIDE_1, 1)
 
     local lp = item["networkEssence"]
     local maxLp = item["maxNetworkEssence"]
@@ -28,10 +29,10 @@ function checkLp()
 
     if needCharge then
         -- try move from chest east slot 2 to chest top slot 1
-        tr.transferItem(sides.east, sides.up, 64, 2)
+        tr.transferItem(SIDE_1, SIDE_2, 64, 2)
     else
         -- try move from chest top slot 1 to chest east slot 2
-        tr.transferItem(sides.up, sides.east, 64, 1)
+        tr.transferItem(SIDE_2, SIDE_1, 64, 1)
     end
 end
 
