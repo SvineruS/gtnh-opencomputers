@@ -13,11 +13,11 @@ local aeHud = require("ae/aeHud")
 local me = component.me_interface
 
 local CPUS_TO_USE = {
-    cpu1 = { },
-    cpu2 = { },
-    cpu3 = { },
-    cpu4 = { },
-    cpu5 = { },
+    comp1 = { },
+    comp2 = { },
+    comp3 = { },
+    comp4 = { },
+    comp5 = { },
     --cpu6 = { },
 }  -- names of CPUs to use for crafting
 
@@ -29,65 +29,45 @@ function main()
     failedToCraftGui = aeHud.createFailedToCraftList(1, 100)
     --aeHud.gui.clearAll()
 
-    local i = 0
-    for cpuName, cpuValue in pairs(CPUS_TO_USE) do
-        CPUS_TO_USE[cpuName].icon = aeHud.createCpuIcon(1, 120 + 16 * i)
-        i = i + 1
-    end
-
     while true do
         local cpus = me.getCpus()
+
         for _, meCpu in ipairs(cpus) do
-            local cpuConfig = CPUS_TO_USE[meCpu.name]
-            if cpuConfig then
-
-                local cpu = getCpuData(meCpu)
-
-                --print(serialization.serialize(cpu))
-                if not cpu.isBusy then
-
-                    --for _ = 1, #STOCKING_HP do
-                    --    local item = getNextHPStockingItem()
-                    --    local crafting = checkItem(item, cpu.name)
-                    --    if crafting == "crafting" then
-                    --        break
-                    --    elseif crafting == "fail" then
-                    --        updateFailedToCraft(item)
-                    --    end
-                    --    os.sleep(0)
-                    --end
-
-
-                    for _ = 1, #STOCKING do
-                        local item = getNextStockingItem()
-                        local crafting = checkItem(item, cpu.name)
-                        if crafting == "crafting" then
-                            break
-                        elseif crafting == "fail" then
-                            updateFailedToCraft(item)
-                        end
-                        os.sleep(0)
-                    end
-                end
-
-                local final = cpu.finalOutput
-                if final == nil and #cpu.pendingItems > 0 then
-                    final = cpu.pendingItems[#cpu.pendingItems]
-                end
-                if final == nil and #cpu.activeItems > 0 then
-                    final = cpu.activeItems[1]
-                end
-                --cpuConfig.icon.updateFinal(cpu.finalOutput or cpu.pendingItems[#cpu.pendingItems])
-                cpuConfig.icon.updateFinal(final)
-                cpuConfig.icon.updateActive(cpu.activeItems)
-
-            end
+            updateCpu(meCpu)
+            os.sleep(0)
         end
 
         os.sleep(2)
     end
 
 end
+
+
+function updateCpu(meCpu)
+    local cpuConfig = CPUS_TO_USE[meCpu.name]
+    if cpuConfig == nil then
+        return
+    end
+
+    local cpu = getCpuData(meCpu)
+    if cpu.isBusy then
+        return
+    end
+
+    for _ = 1, #STOCKING do
+        local item = getNextStockingItem()
+        local crafting = checkItem(item, cpu.name)
+        if crafting == "crafting" then
+            return
+        elseif crafting == "fail" then
+            updateFailedToCraft(item)
+        end
+        os.sleep(0)
+    end
+
+end
+
+
 
 function checkItem(item, cpuName)
     if checkItemIsAlreadyCrafting(item) then
@@ -105,29 +85,30 @@ function checkItem(item, cpuName)
         -- craft up to stock amount
         local available = getItemAmount(item.name, item.damage)
         if available >= item.stock then
-            print(string.format("Skipping %s | %d > %d", item.label, available, item.stock))
+            --print(string.format("Skipping %s | %d > %d", item.label, available, item.stock))
             return "no"
         end
-        print(string.format("Crafting %s | %d -> %d", item.label, available, item.stock))
+        print(string.format("Crafting %s | %d -> %d on CPU %s", item.label, available, item.stock, cpuName))
 
         craftAmount = item.stock - available
 
     end
 
 
-    local craftable = getCraftable(item)
-    if craftable == nil then
-        print("\27[31mNo craftable for " .. item.label .. "\27[37m")
-        return "fail"
-    end
+    while craftAmount > 1 do
+        local craftable = getCraftable(item)
+        if craftable == nil then
+            print("\27[31mNo craftable for " .. item.label .. "\27[37m")
+            return "fail"
+        end
 
-    while craftAmount > 0 do
         local tracking = craftable.request(craftAmount, false, cpuName)
 
         local hasFailed, reason = tracking.hasFailed()
         local isCanceled = tracking.isCanceled()
 
         if not (hasFailed and isCanceled) then
+            print("\27[32mCrafting " .. item.label .. " x" .. craftAmount .. "\27[37m")
             return "crafting"
         end
 
@@ -204,9 +185,15 @@ function getCraftableItem(name, damage)
     if #craftables == 0 then
         return nil
     end
-    assert(#craftables == 1, "Expected exactly one craftable for " .. name .. ":" .. damage .. ", got " .. #craftables)
 
-    return craftables[1]
+    for i, c in ipairs(craftables) do
+        local item = c.getItemStack()
+        if not string.match(item.label, "GAY") then
+            return c
+        end
+    end
+
+    assert(false, "Expected exactly one craftable for " .. name .. ":" .. damage .. ", got " .. #craftables)
 end
 
 function getCraftableFluid(name)

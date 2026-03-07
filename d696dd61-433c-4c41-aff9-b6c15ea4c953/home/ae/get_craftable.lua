@@ -38,13 +38,14 @@ function process(item, oldCraftables)
     local struct = nil;
 
     if item.fluidDrop ~= nil then
-        struct = {
-            label = item.fluidDrop.label,
-            stock = item.fluidDrop.amount,
-            is_fluid = true,
-            name = item.fluidDrop.name,
-            damage = item.fluidDrop.damage or 0
-        }
+        return nil
+        --struct = {
+        --    label = item.fluidDrop.label,
+        --    stock = item.fluidDrop.amount,
+        --    is_fluid = true,
+        --    name = item.fluidDrop.name,
+        --    damage = item.fluidDrop.damage or 0
+        --}
     else
         struct = {
             label = item.label,

@@ -55,8 +55,7 @@ end
 function main()
     while true do
         checkME()
-        print("---")
-        os.sleep(1)
+        os.sleep(0.5)
 
         package.loaded["OREst3/config"] = nil
         config = require("OREst3/config")
@@ -65,7 +64,9 @@ end
 
 
 local MAX_SLOTS = {
-    [TARGET_OUTPUT] = 5
+    [TARGET_OUTPUT] = 5,
+    [TARGET_MACERATOR] = 5,
+    [TARGET_ORE_WASHER] = 5,
     -- default 1
 }
 
@@ -74,8 +75,9 @@ local MAX_SLOTS = {
 function checkME()
     local items = me.getItemsInNetwork()
     local slots = {}
-    for i = #items, 1, -1 do
-        local item = items[i]
+    local doesSomething = false
+
+    for i, item in ipairs(items) do
         os.sleep(0)
 
         local itemTarget, reason = whereToPutItem(item)
@@ -89,9 +91,14 @@ function checkME()
             setExport(itemTarget, item, takedSlots + 1)
             print(reason .. text.padRight(item.label .. "\27[40m", 35) .."-> ".. config.targetToName[itemTarget])
             slots[itemTarget] = takedSlots + 1
+            doesSomething = true
         end
 
         ::continue_loop::
+    end
+
+    if doesSomething then
+        print("---")
     end
 
 end
@@ -126,7 +133,7 @@ function whereToPutItem(item)
         return defaultPath, ""
     end
 
-    if contains(item.name, "gregtech", "bartworks") then
+    if contains(item.name, "gregtech", "bartworks", "miscutils") then
         if contains(item.label, "Cobblestone") then
             return TARGET_OUTPUT, "\27[41m"
         end
@@ -177,8 +184,8 @@ function defaultPath(item)
         return TARGET_MACERATOR
     end
 
-    if contains(item.name, "miscutils:dustImpureRareEarth", "gregtech:gt%.metaitem", "bartworks:gt%.bwMetaGenerated") then
-        if labelContains(item, "Impure Pile of ", "Purified Pile of ", "Impure ") then  -- impure pile
+    if contains(item.name, "miscutils:dustImpure", "miscutils:dustPure", "miscutils:crushedCentrifuged", "gregtech:gt%.metaitem", "bartworks:gt%.bwMetaGenerated") then
+        if labelContains(item, "Impure Pile of ", "Purified Pile of ", "Impure ", "Purified ") then  -- impure pile
             return TARGET_CENTRIFUGE
         end
 

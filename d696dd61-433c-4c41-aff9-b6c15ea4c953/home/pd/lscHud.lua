@@ -1,3 +1,5 @@
+local utils = require('utils')
+
 package.loaded["pd/graphics"] = nil
 local graphics = require('pd/graphics')
 
@@ -9,9 +11,6 @@ local lsc = component.gt_machine
 
 
 local rateThreshold = 0.003
--- View numbers in metric or scientic notation
-local metric = true
-
 local fontSize = 2
 
 
@@ -89,7 +88,7 @@ function initHud(gl)
         local percentage = math.min(power / capacity, 1)
 
         -- Adjust Values
-        local curr = metricParser(power)
+        local curr = utils.metricParser(power)
         local rate = calcRate(percentage, lscHud.last, rateThreshold)
         lscHud.last = percentage
 
@@ -99,7 +98,7 @@ function initHud(gl)
 
         lscHud.textPercent.setText(string.format('%.1f%%', percentage * 100))
         lscHud.textCurr.setText(curr .. ' ' .. rate)
-        lscHud.textMax.setText(metricParser(capacity))
+        lscHud.textMax.setText(utils.metricParser(capacity))
 
         local hasIssues = #scan[17] < 43
         -- Detect Maintenance Issues
@@ -110,7 +109,7 @@ function initHud(gl)
         end
 
 
-        if hasIssues or percentage < 0.7 then
+        if hasIssues or percentage < 0.3 then
             -- Flash Energy Bar Background Color
             if lscHud.lowPercentWarningIsRed then
                 lscHud.energyBarBG.setColor(graphics.RGB(secondaryColor))
@@ -148,23 +147,6 @@ function calcRate(percentage, last, threshold)
         return '<<<'
     end
 end
-
-function metricParser(value)
-    local units = {' ', 'K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'}
-    for i = 1, #units do
-        if value < 1000 or i == #units then
-            return string.format('%.1f%s', value, units[i])
-        end
-        value = value / 1000
-    end
-end
-
-function scientificParser(value)
-    value = string.format('%.2e', value)
-    value = string.sub(value, 0, -4) .. string.sub(value, -2, -1)
-    return value
-end
-
 
 
 

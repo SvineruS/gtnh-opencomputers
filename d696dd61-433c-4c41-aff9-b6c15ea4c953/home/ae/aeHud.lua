@@ -41,7 +41,7 @@ function aeHud.createFailedToCraftList(x, y)
 
     failedToCraft.items = {}
     for i=1,10 do
-        local item = createItemWithSize(x + (i-1)*8, y, 0.5)
+        local item = createItemWithSize(x + (i-1)*16, y, 1)
         table.insert(failedToCraft.items, item)
     end
 

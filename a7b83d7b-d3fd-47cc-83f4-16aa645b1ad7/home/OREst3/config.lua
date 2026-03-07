@@ -104,6 +104,7 @@ local customPaths = {
     {name = "Deep Iron", path = L1_MACERATOR},
     {name = "Iron", path = L1_MACERATOR},  -- blue shit bath + macerator = nickel + tin
     {name = "Hedenbergite", path = L1_MACERATOR},  -- blue shit bath + macerator = nickel + tin
+    {name = "Chrome", path = L1_MACERATOR},
 
 
 
@@ -188,7 +189,7 @@ local customPaths = {
     {name = "Tricalcium Phosphate", path = L2_WASHER_MACERATOR},
     {name = "Lepidolite", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
     {name = "Soapstone", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
-    {name = "Adamantium", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
+    {name = "Adamantium", path = L2_WASHER_MACERATOR},
     {name = "Gypsum", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
     {name = "Garnierite", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
     {name = "Draconium", path = L2_WASHER_MACERATOR},  -- lithium, caesium, caesium
@@ -215,6 +216,17 @@ local customPaths = {
     {name = "Pitchblende", path = L2_WASHER_MACERATOR},
     {name = "Redstone", path = L2_WASHER_MACERATOR},  -- cinnabar, rare earth, glowstone
     {name = "Bastnasite", path = L2_WASHER_MACERATOR},  -- neodymium, rare earth, rare earth
+    {name = "Neutronium", path = L2_WASHER_MACERATOR},
+    {name = "Tantalite", path = L2_WASHER_MACERATOR},
+    {name = "Mysterious Crystal", path = L2_WASHER_MACERATOR},
+    {name = "Niobium", path = L2_WASHER_MACERATOR},
+    {name = "Yttrium", path = L2_WASHER_MACERATOR},
+    {name = "Naquadria", path = L2_WASHER_MACERATOR},
+    {name = "Gallium", path = L2_WASHER_MACERATOR},
+    {name = "Plutonium 241", path = L2_WASHER_MACERATOR},
+    {name = "Uranium 235", path = L2_WASHER_MACERATOR},
+    {name = "Black Plutonium", path = L2_WASHER_MACERATOR},
+    {name = "Borax", path = L2_WASHER_MACERATOR},
 
 
 
@@ -239,7 +251,6 @@ local customPaths = {
 
 
 
-    {name = "Tantalite", path = L53_BATH_NaSO_THERMAL},  -- blue shit bath + thermal centrifuge
 
 
 
@@ -260,6 +271,7 @@ local customPaths = {
     {name = "Jasper", path = L6_SIFTER},
     {name = "Olivine", path = L6_SIFTER},
     {name = "Thorianite", path = L6_SIFTER},
+    {name = "Tiberium", path = L6_SIFTER},
     --{name = "Cinnabar", path = L6_SIFTER},
 
 
@@ -269,15 +281,18 @@ local customPaths = {
 local customPos = {
     {name = "Raw Meteoric Iron Ore", pos = TARGET_OUTPUT},  -- just dohuya
 
-
     {name = "Crushed Spessartine Ore", pos = TARGET_OUTPUT},  -- froth
+    {name = "Crushed Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium (froth)
+
+    {name = "Purified Galena Ore", pos = TARGET_OUTPUT},  -- for indium
+    {name = "Purified Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium
+
 
 
     {name = "Crushed Lead Ore", pos = TARGET_OUTPUT},  -- for tellurium
 
     {name = "Crushed Monazite Ore", pos = TARGET_OUTPUT},  -- for lanthanide line
-    {name = "Purified Galena Ore", pos = TARGET_OUTPUT},  -- for indium
-    {name = "Purified Sphalerite Ore", pos = TARGET_OUTPUT}, -- for indium
+
     {name = "Purified Ilmenite Ore", pos = TARGET_OUTPUT}, -- for washing in sulfuric acid to get more rutile
 
     {name = "Purified Chalcopyrite Ore", pos = TARGET_OUTPUT}, -- platline
@@ -347,6 +362,10 @@ local customPos = {
 
     --{name = "Uraninite Dust", pos = TARGET_CENTRIFUGE, multipleOf=3},  -- uranium 238
     {name = "Sheldonite Dust", pos = TARGET_CENTRIFUGE, multipleOf=6},   -- platinum metallic powder dust
+
+    {name = "Fluorite (F) Ore", pos = TARGET_MACERATOR},   -- platinum metallic powder dust
+    {name = "Purified Crushed Fluorite (F) Ore", pos = TARGET_THERMAL_CENTRIFUGE},   -- platinum metallic powder dust
+
 
     {name = "Impure Pile of Endstone Dust", pos = TARGET_CENTRIFUGE},
     --{name = "Endstone Dust", pos = TARGET_CENTRIFUGE},

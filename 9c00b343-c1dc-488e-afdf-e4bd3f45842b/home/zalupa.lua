@@ -5,7 +5,11 @@ local serialization = require("serialization")
 
 
 local inv = component.inventory_controller
-print(inv.getInventorySize(sides.front))
+--print(inv.getInventorySize(sides.front))
+--
+--print(serialization.serialize(inv.getStackInSlot(sides.front, 1)))
+--print(serialization.serialize(inv.getStackInSlot(sides.front, 2)))
 
-print(serialization.serialize(inv.getStackInSlot(sides.front, 1)))
-print(serialization.serialize(inv.getStackInSlot(sides.front, 2)))
+
+local stack = inv.getStackInInternalSlot(1)
+print(serialization.serialize(stack))
