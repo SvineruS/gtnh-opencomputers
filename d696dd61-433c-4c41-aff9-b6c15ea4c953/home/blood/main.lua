@@ -31,9 +31,9 @@ function checkLp()
 
     local lp = item["networkEssence"]
     --local maxLp = item["maxNetworkEssence"]
-    local maxLp = 120000000;
+    local maxLp = 130000000;
 
-    local needCharge = lp / maxLp < 0.95
+    local needCharge = lp < maxLp
 
     print("LP: " .. lp .. "/" .. maxLp .. " (" .. (lp / maxLp * 100) .. "%), needCharge: " .. tostring(needCharge))
     hudText.setText("LP: " .. utils.metricParser(lp) .. "/" .. utils.metricParser(maxLp))

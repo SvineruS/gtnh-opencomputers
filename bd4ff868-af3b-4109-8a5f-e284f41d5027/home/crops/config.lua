@@ -4,8 +4,8 @@ local config = {
     needGain = 31,
     needResistance = 10,
 
-    width = 6,
-    height = 6,
+    width = 2,
+    height = 1,
 
     cropsSlotsBegin = 1,
     cropsSlotsPremiumEnd = 4,

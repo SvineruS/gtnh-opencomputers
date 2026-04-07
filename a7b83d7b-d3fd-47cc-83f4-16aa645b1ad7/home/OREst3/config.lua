@@ -10,10 +10,10 @@ local sides = require("sides")
 --West = TARGET_SIFTER
 
 --ExportBuses TOP:
---North = TARGET_ELECTROLYZER
---East = TARGET_THERMAL_CENTRIFUGE
---South = TARGET_CHEM_BATH_BLUE_SHIT
---West = TARGET_CHEM_BATH_MERCURY
+--North = TARGET_CHEM_BATH_BLUE_SHIT
+--East = TARGET_ELECTROLYZER
+--South = TARGET_CHEM_BATH_MERCURY
+--West = TARGET_THERMAL_CENTRIFUGE
 
 
 
@@ -105,6 +105,9 @@ local customPaths = {
     {name = "Iron", path = L1_MACERATOR},  -- blue shit bath + macerator = nickel + tin
     {name = "Hedenbergite", path = L1_MACERATOR},  -- blue shit bath + macerator = nickel + tin
     {name = "Chrome", path = L1_MACERATOR},
+    {name = "Certus Quartz", path = L1_MACERATOR},
+    {name = "Forsterite", path = L1_MACERATOR},
+    {name = "Manganese", path = L1_MACERATOR},
 
 
 
@@ -177,7 +180,6 @@ local customPaths = {
     {name = "Callisto Ice", path = L2_WASHER_MACERATOR},
     {name = "Blue Topaz", path = L2_WASHER_MACERATOR},
     {name = "Alduorite", path = L2_WASHER_MACERATOR},
-    {name = "Certus Quartz", path = L2_WASHER_MACERATOR},
     {name = "Ceruclase", path = L2_WASHER_MACERATOR},
     {name = "Vulcanite", path = L2_WASHER_MACERATOR},
     {name = "Mithril", path = L2_WASHER_MACERATOR},
@@ -227,6 +229,27 @@ local customPaths = {
     {name = "Uranium 235", path = L2_WASHER_MACERATOR},
     {name = "Black Plutonium", path = L2_WASHER_MACERATOR},
     {name = "Borax", path = L2_WASHER_MACERATOR},
+    {name = "Cosmic Neutronium", path = L2_WASHER_MACERATOR},
+    {name = "Lutetium", path = L2_WASHER_MACERATOR},
+    {name = "Europium", path = L2_WASHER_MACERATOR},
+    {name = "Infinity Catalyst", path = L2_WASHER_MACERATOR},
+    {name = "Americium", path = L2_WASHER_MACERATOR},
+    {name = "Bismutite", path = L2_WASHER_MACERATOR},
+    {name = "Indium", path = L2_WASHER_MACERATOR},
+    {name = "Ytterbium", path = L2_WASHER_MACERATOR},
+    {name = "Dysprosium", path = L2_WASHER_MACERATOR},
+    {name = "Holmium", path = L2_WASHER_MACERATOR},
+    {name = "Erbium", path = L2_WASHER_MACERATOR},
+    {name = "Quartzite", path = L2_WASHER_MACERATOR},
+    {name = "Fluxed Electrum", path = L2_WASHER_MACERATOR},
+    {name = "Electrum", path = L2_WASHER_MACERATOR},
+    {name = "Wittichenite", path = L2_WASHER_MACERATOR},
+    {name = "Barium", path = L2_WASHER_MACERATOR},
+    {name = "Cadmium", path = L2_WASHER_MACERATOR},
+    {name = "Scandium", path = L2_WASHER_MACERATOR},
+    {name = "Red Descloizite", path = L2_WASHER_MACERATOR},
+    {name = "Awakened Draconium", path = L2_WASHER_MACERATOR},
+    {name = "Bedrockium", path = L2_WASHER_MACERATOR},
 
 
 
@@ -261,8 +284,7 @@ local customPaths = {
 
 
     {name = "Yellow Garnet", path = L6_SIFTER},  -- sifter
-    {name = "Quartzite", path = L6_SIFTER},
-    {name = "Nether Quartz", path = L6_SIFTER},
+    --{name = "Nether Quartz", path = L6_SIFTER},
     {name = "Coal", path = L6_SIFTER},  -- dohuya norm coal
     {name = "Nether Star", path = L6_SIFTER},
     {name = "Amber", path = L6_SIFTER},
@@ -279,6 +301,14 @@ local customPaths = {
 }
 
 local customPos = {
+    {name = "Crushed Grossular Ore", pos = TARGET_OUTPUT},  -- grossular froth
+
+    {name = "Crushed Indium Ore", pos = TARGET_OUTPUT},  -- indium combs
+
+    {name = "Purified Molybdenum Ore", pos = TARGET_OUTPUT},  -- rhenium
+    {name = "Purified Molybdenite Ore", pos = TARGET_OUTPUT},
+    {name = "Purified Scheelite Ore", pos = TARGET_OUTPUT},
+
     {name = "Raw Meteoric Iron Ore", pos = TARGET_OUTPUT},  -- just dohuya
 
     {name = "Crushed Spessartine Ore", pos = TARGET_OUTPUT},  -- froth
@@ -295,7 +325,7 @@ local customPos = {
 
     {name = "Purified Ilmenite Ore", pos = TARGET_OUTPUT}, -- for washing in sulfuric acid to get more rutile
 
-    {name = "Purified Chalcopyrite Ore", pos = TARGET_OUTPUT}, -- platline
+    --{name = "Purified Chalcopyrite Ore", pos = TARGET_OUTPUT}, -- platline
     {name = "Purified Tetrahedrite Ore", pos = TARGET_OUTPUT}, -- platline
     {name = "Purified Sheldonite Ore", pos = TARGET_OUTPUT}, -- platline
     {name = "Platinum Metallic Powder Dust", pos = TARGET_OUTPUT}, -- platline
@@ -305,6 +335,7 @@ local customPos = {
     {name = "Raw Oilsands Ore", pos = TARGET_OUTPUT},  -- centrifuge for oil
     {name = "Oilsands Ore", pos = TARGET_OUTPUT},
 
+    {name = "Sodalite Dust", pos = TARGET_OUTPUT},
     {name = "Redstone", pos = TARGET_OUTPUT},
     {name = "Glowstone Dust", pos = TARGET_OUTPUT},
     {name = "Monazite", pos = TARGET_OUTPUT},

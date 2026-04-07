@@ -39,8 +39,8 @@ end
 local function charge()
     print("Charging")
     repeat
-        os.sleep(0.5)
-    until (computer.energy() / computer.maxEnergy() > 0.99)
+        os.sleep(0.1)
+    until (computer.energy() / computer.maxEnergy() > 0.9)
 end
 
 
