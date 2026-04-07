@@ -44,23 +44,15 @@ end
 
 function main()
     ---- set at least one item in each interface to prevent them from unloading
-    local itemMacerator = { name = "gregtech:gt.blockmachines", damage = 797 }
-    local itemWasher = { name = "gregtech:gt.blockmachines", damage = 850 }
-    local itemCentrifuge = { name = "gregtech:gt.blockmachines", damage = 790 }
-    local itemSifter = { name = "gregtech:gt.blockmachines", damage = 840 }
-    local itemNaSO = { name = "gregtech:gt.GregTech_FluidDisplay", damage = 156 }
-    local itemThermal = { name = "gregtech:gt.blockmachines", damage = 849 }
-    local itemOutput = { name = "appliedenergistics2:tile.BlockInterface", damage = 0 }
-
-    setExport(TARGET_MACERATOR, itemMacerator)
-    setExport(TARGET_ORE_WASHER, itemWasher)
-    setExport(TARGET_CENTRIFUGE, itemCentrifuge)
-    setExport(TARGET_SIFTER, itemSifter)
-    setExport(TARGET_CHEM_BATH_BLUE_SHIT, itemNaSO)
+    setExport(TARGET_MACERATOR, { name = "minecraft:wool", damage = 1 }, 9)
+    setExport(TARGET_ORE_WASHER, { name = "minecraft:wool", damage = 2 }, 9)
+    setExport(TARGET_CENTRIFUGE, { name = "minecraft:wool", damage = 3 }, 9)
+    setExport(TARGET_SIFTER, { name = "minecraft:wool", damage = 4 }, 9)
+    setExport(TARGET_CHEM_BATH_BLUE_SHIT, { name = "minecraft:wool", damage = 5 }, 9)
     --setExport(TARGET_ELECTROLYZER, item, )
     --setExport(TARGET_CHEM_BATH_MERCURY, item, item)
-    setExport(TARGET_THERMAL_CENTRIFUGE, itemThermal)
-    setExport(TARGET_OUTPUT, itemOutput)
+    setExport(TARGET_THERMAL_CENTRIFUGE, { name = "minecraft:wool", damage = 6 }, 9)
+    setExport(TARGET_OUTPUT, { name = "minecraft:wool", damage = 7 }, 9)
 
 
 
