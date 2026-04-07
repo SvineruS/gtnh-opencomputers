@@ -38,7 +38,7 @@ function setExport(dst, item, slot)
     local interface = POS[dst]
 
     database.set(1, item.name, item.damage)
-    interface.setInterfaceConfiguration(slot, database.address, 1, 100)
+    interface.setInterfaceConfiguration(slot or 1, database.address, 1, 100)
 end
 
 
