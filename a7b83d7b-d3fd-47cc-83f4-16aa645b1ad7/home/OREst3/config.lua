@@ -250,6 +250,8 @@ local customPaths = {
     {name = "Red Descloizite", path = L2_WASHER_MACERATOR},
     {name = "Awakened Draconium", path = L2_WASHER_MACERATOR},
     {name = "Bedrockium", path = L2_WASHER_MACERATOR},
+    {name = "Tiberium", path = L2_WASHER_MACERATOR},
+
 
 
 
@@ -293,7 +295,6 @@ local customPaths = {
     {name = "Jasper", path = L6_SIFTER},
     {name = "Olivine", path = L6_SIFTER},
     {name = "Thorianite", path = L6_SIFTER},
-    {name = "Tiberium", path = L6_SIFTER},
     --{name = "Cinnabar", path = L6_SIFTER},
 
 
