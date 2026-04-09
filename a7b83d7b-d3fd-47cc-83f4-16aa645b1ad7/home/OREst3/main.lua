@@ -12,14 +12,15 @@ print(serialization.serialize(component.list("me_interface")))
 print(serialization.serialize(component.list("me_exportbus")))
 
 --- @type me_interface
-local out_centrifuge = component.proxy(component.get("4774", "me_interface"), "me_interface")
-local out_sifter = component.proxy(component.get("6aa9", "me_interface"), "me_interface")
-local out_washer = component.proxy(component.get("8dea", "me_interface"), "me_interface")
-local out_macerator = component.proxy(component.get("c3aa", "me_interface"), "me_interface")
-
-local out_naso = component.proxy(component.get("5b80", "me_interface"), "me_interface")
-local out_thermal = component.proxy(component.get("078e", "me_interface"), "me_interface")
-local out_out = component.proxy(component.get("4a71", "me_interface"), "me_interface")
+ local out_1 = component.proxy(component.get("d714", "me_interface"), "me_interface")
+ local out_2 = component.proxy(component.get("6746", "me_interface"), "me_interface")
+ local out_3 = component.proxy(component.get("37fa", "me_interface"), "me_interface")
+ local out_4 = component.proxy(component.get("0d8d", "me_interface"), "me_interface")
+ 
+local out_5 = component.proxy(component.get("2c23", "me_interface"), "me_interface")
+local out_6 = component.proxy(component.get("3fe9", "me_interface"), "me_interface")
+local out_7 = component.proxy(component.get("8686", "me_interface"), "me_interface")
+--local out_out = component.proxy(component.get("9550", "me_interface"), "me_interface")
 
 
 local POS = {

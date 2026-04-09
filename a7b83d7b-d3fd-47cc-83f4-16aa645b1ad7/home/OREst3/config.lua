@@ -383,12 +383,12 @@ local customPos = {
     --{name = "Magnetite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     --{name = "Cassiterite Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
     --{name = "Banded Iron Dust", pos = TARGET_ELECTROLYZER},  -- oxygen
-    {name = "Sodalite Dust", pos = TARGET_ELECTROLYZER, multipleOf=11},   -- chlorine, alum, sodium, silicon
-    {name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
-    {name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
-    {name = "Bauxite Dust", pos = TARGET_ELECTROLYZER, multipleOf=39},
-    {name = "Chromite Dust", pos = TARGET_ELECTROLYZER, multipleOf=7},
-    {name = "Bastnasite Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},
+    --{name = "Sodalite Dust", pos = TARGET_ELECTROLYZER, multipleOf=11},   -- chlorine, alum, sodium, silicon
+    --{name = "Potassium Feldspar Dust", pos = TARGET_ELECTROLYZER, multipleOf=26},   -- oxygen
+    --{name = "Red Zircon Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},   -- zirconium
+    --{name = "Bauxite Dust", pos = TARGET_ELECTROLYZER, multipleOf=39},
+    --{name = "Chromite Dust", pos = TARGET_ELECTROLYZER, multipleOf=7},
+    --{name = "Bastnasite Dust", pos = TARGET_ELECTROLYZER, multipleOf=6},
 
     --{name = "Quartzite Dust", pos = TARGET_AUTOCLAVE},
 
