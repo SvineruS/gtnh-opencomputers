@@ -24,22 +24,28 @@ local out_7 = component.proxy(component.get("8686", "me_interface"), "me_interfa
 
 
 local POS = {
-    [TARGET_MACERATOR] = out_macerator,
-    [TARGET_ORE_WASHER] = out_washer,
-    [TARGET_CENTRIFUGE] = out_centrifuge,
-    [TARGET_SIFTER] = out_sifter,
-    [TARGET_CHEM_BATH_BLUE_SHIT] = out_naso,
-    [TARGET_THERMAL_CENTRIFUGE] = out_thermal,
-    [TARGET_OUTPUT] = out_out,
+    [TARGET_MACERATOR] = out_7,
+    [TARGET_ORE_WASHER] = out_2,
+    [TARGET_CENTRIFUGE] = out_6,
+    [TARGET_SIFTER] = out_1,
+    [TARGET_CHEM_BATH_BLUE_SHIT] = out_5,
+    [TARGET_THERMAL_CENTRIFUGE] = out_4,
+    [TARGET_OUTPUT] = out_3,
 }
 
 
 
 function setExport(dst, item, slot)
     local interface = POS[dst]
-
+    if interface == nil then
+        print(item.name, item.damage, item.label)
+        assert(false, "dst is nil")
+    end
+    setExport_(interface, item, slot)
+end
+function setExport_(dst, item, slot)
     database.set(1, item.name, item.damage)
-    interface.setInterfaceConfiguration(slot or 1, database.address, 1, 100)
+    dst.setInterfaceConfiguration(slot or 1, database.address, 1, 64)
 end
 
 
@@ -55,24 +61,27 @@ function main()
     setExport(TARGET_THERMAL_CENTRIFUGE, { name = "minecraft:wool", damage = 6 }, 9)
     setExport(TARGET_OUTPUT, { name = "minecraft:wool", damage = 7 }, 9)
 
+    ---- set at least one item in each interface to prevent them from unloading
+    --setExport_(out_1, { name = "minecraft:wool", damage = 1 }, 9)
+    --setExport_(out_2, { name = "minecraft:wool", damage = 2 }, 9)
+    --setExport_(out_3, { name = "minecraft:wool", damage = 3 }, 9)
+    --setExport_(out_4, { name = "minecraft:wool", damage = 4 }, 9)
+    --setExport_(out_5, { name = "minecraft:wool", damage = 5 }, 9)
+    ----setExport(TARGET_ELECTROLYZER, item, )
+    ----setExport(TARGET_CHEM_BATH_MERCURY, item, item)
+    --setExport_(out_6, { name = "minecraft:wool", damage = 6 }, 9)
+    --setExport_(out_7, { name = "minecraft:wool", damage = 7 }, 9)
 
 
-    --while true do
-    --    checkME()
-    --    os.sleep(0.5)
-    --
-    --    package.loaded["OREst3/config"] = nil
-    --    config = require("OREst3/config")
-    --end
+
+    while true do
+        checkME()
+        os.sleep(0.5)
+
+        package.loaded["OREst3/config"] = nil
+        config = require("OREst3/config")
+    end
 end
-
-local MAX_SLOTS = {
-    [TARGET_OUTPUT] = 5,
-    [TARGET_MACERATOR] = 5,
-    [TARGET_ORE_WASHER] = 5,
-    [TARGET_CENTRIFUGE] = 5,
-    -- default 1
-}
 
 function checkME()
     local items = me.getItemsInNetwork()
@@ -100,7 +109,7 @@ function checkME()
         end
 
         local takedSlots = slots[itemTarget] or 0
-        local maxSlots = MAX_SLOTS[itemTarget] or 1
+        local maxSlots = 8  -- 9 slot is for whitelist trash (wool)
         if takedSlots < maxSlots then
             setExport(itemTarget, item, takedSlots + 1)
             print(reason .. text.padRight(item.label .. "\27[40m", 35) .. "-> " .. config.targetToName[itemTarget])
@@ -188,7 +197,7 @@ function defaultPath(item)
         return TARGET_MACERATOR
     end
 
-    if contains(item.name, "miscutils:dustImpure", "miscutils:dustPure", "miscutils:crushedCentrifuged", "gregtech:gt%.metaitem", "bartworks:gt%.bwMetaGenerated") then
+    if contains(item.name, "gregtech:gt%.metaitem") then
         if labelContains(item, "Impure Pile of ", "Purified Pile of ", "Impure ", "Purified ") then
             -- impure pile
             return TARGET_CENTRIFUGE
@@ -201,12 +210,27 @@ function defaultPath(item)
 
     end
 
+    if contains(item.name, "miscutils:dustImpure", "miscutils:dustPure", "miscutils:crushedCentrifuged", "bartworks:gt%.bwMetaGenerated") then
+        if labelContains(item, "Impure Pile of ", "Purified Pile of ", "Impure ", "Purified ") and labelContains(item, "Dust") then
+            -- impure pile
+            return TARGET_CENTRIFUGE
+        end
+        if labelContains(item, "Centrifuged ") then
+            -- centrifuged
+            return TARGET_MACERATOR
+        end
+
+    end
+
+
+
+
     if labelContains(item, " Dust") then
         -- dust
         return TARGET_OUTPUT
     end
 
-    if contains(item.name, "gregtech:gt%.metaitem%.02") then
+    if contains(item.name, "gregtech:gt%.metaitem%.02", "bartworks:gt.bwMetaGeneratedgem") then
 
         if labelContains(item, "Chipped", "Flawed", "Flawless", "Exquisite") then
             -- gem

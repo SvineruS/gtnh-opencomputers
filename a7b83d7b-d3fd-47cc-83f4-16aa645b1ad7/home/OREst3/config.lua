@@ -251,6 +251,7 @@ local customPaths = {
     {name = "Awakened Draconium", path = L2_WASHER_MACERATOR},
     {name = "Bedrockium", path = L2_WASHER_MACERATOR},
     {name = "Tiberium", path = L2_WASHER_MACERATOR},
+    {name = "Cosmic Neutronium", path = L2_WASHER_MACERATOR},
 
 
 
@@ -283,6 +284,7 @@ local customPaths = {
     {name = "Tin", path = L6_SIFTER}, -- zirconium
     {name = "Cassiterite", path = L6_SIFTER}, -- zirconium
     {name = "Emerald", path = L6_SIFTER},
+    {name = "Sapphire", path = L6_SIFTER},
 
 
     {name = "Yellow Garnet", path = L6_SIFTER},  -- sifter
